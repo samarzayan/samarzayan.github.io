@@ -15,26 +15,10 @@ website:
         file: blog.qmd
       - text: "fast.ai"
         file: fast.ai.qmd
-      - text: "Favourites"
-        file: favourites.qmd
-      - text: "Readings"
-        file: readings.qmd
       - text: "About"
         file: about.qmd
     
   sidebar:
-    - title: "Favourites"
-      style: "docked"
-      contents:  
-        - section: favourites.qmd
-          contents:
-            - books.qmd
-            - movies.qmd
-            - music.qmd
-    - title: "Readings"
-      style: "docked"
-      contents:
-        - readings.qmd
     - title: "fast.ai"
       style: "docked"
       contents:
@@ -50,6 +34,9 @@ website:
               contents:
                 - chapter1.qmd
             - text: "---"
+            - section: "Code Experiments"
+              contents: 
+                - safedriving.qmd
         - section: "Live Coding"
           contents:
             - live_coding_1.qmd

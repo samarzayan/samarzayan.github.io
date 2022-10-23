@@ -4,6 +4,7 @@ toc: false
 css: index.css
 from: markdown+emoji
 //page-layout: full
+sidebar: false
 ---
 ## *--data scientist in making*
 

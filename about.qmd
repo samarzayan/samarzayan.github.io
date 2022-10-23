@@ -1,6 +1,7 @@
 ---
 title: "About"
 title-block-banner: about.png
+sidebar: false
 image: profile.png
 about:
   template: solana

@@ -1,5 +1,5 @@
 ---
-title: "This Wrote Samar"
+title: "Thus Wrote Samar"
 description: "My first blogpost"
 author: "Samar Zayan"
 date: "20/10/2022"

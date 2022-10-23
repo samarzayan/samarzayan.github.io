@@ -1,0 +1,70 @@
+project:
+  type: website
+
+website:
+  title: "Samar Zayan"
+  favicon: favicon.png
+  search: 
+    location: navbar
+    type: overlay
+  navbar:
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Blog"
+        file: blog.qmd
+      - text: "fast.ai"
+        file: fast.ai.qmd
+      - text: "Favourites"
+        file: favourites.qmd
+      - text: "Readings"
+        file: readings.qmd
+      - text: "About"
+        file: about.qmd
+    
+  sidebar:
+    - title: "Favourites"
+      style: "docked"
+      contents:  
+        - section: favourites.qmd
+          contents:
+            - books.qmd
+            - movies.qmd
+            - music.qmd
+    - title: "Readings"
+      style: "docked"
+      contents:
+        - readings.qmd
+    - title: "fast.ai"
+      style: "docked"
+      contents:
+        - fast.ai.qmd
+        - section: "Practical Deep Learning For Coders"
+          contents:
+            - section: "Lessons"      
+              contents:
+                - lesson0.qmd
+                - lesson1.qmd
+            - text: "---"
+            - section: "Text Book"
+              contents:
+                - chapter1.qmd
+            - text: "---"
+        - section: "Live Coding"
+          contents:
+            - live_coding_1.qmd
+            - live_coding_2.qmd
+        - text: "---"
+
+  page-navigation: true
+  reader-mode: true
+format:
+  html:
+    mainfont: "Georgia"
+    theme: theme.scss
+    css: styles.css
+    toc: true
+    
+
+
+

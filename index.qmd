@@ -1,0 +1,16 @@
+---
+title: "Samar Zayan"
+toc: false
+css: index.css
+from: markdown+emoji
+//page-layout: full
+---
+## *--data scientist in making*
+
+# Hi, there!
+### This website serves as a documenting platform to share my experiences and learnings as I embark on a voyage to become a Data Scientist.
+
+### At the heart of it all is [fast.ai](https://www.fast.ai/). Apart from that I am currently enrolled in an undergraduate Data Science [program](https://onlinedegree.iitm.ac.in/) offered by [IIT Madras](https://www.iitm.ac.in/).
+
+### Welcome!
+

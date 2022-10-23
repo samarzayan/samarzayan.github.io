@@ -1,0 +1,17 @@
+---
+title: "About"
+title-block-banner: about.png
+image: profile.png
+about:
+  template: solana
+  image-shape: round
+---
+I am Samar a data scientist in making. 
+
+I have a background in education- I taught Math to high school kids and worked in various domains of the education sectors ranging from schools, NGOs and ed-tech platform. Check out here to know more about my life as an educator.
+
+I loved my days as an educator but I wanted more in life. I went on to "discover" myself and find my inner voice (whatever that means :p). After experimenting with various stuff I finally decided I wanted to pursue Data Science. I wish to work in Applied AI & Research in my coming years.
+
+I consider myself a [multipotentialite](https://www.youtube.com/watch?v=4sZdcB6bjI8). I have high interest in the Liberal Arts education apart from Data Science. I personally believe that Humanities education brings about the innate nature of humans- to feel and sense. 
+
+I want to  enormous passions in *writing*, *coding*, and *teaching*. I am hiinterested in *art*,  *philosophy* 

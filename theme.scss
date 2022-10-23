@@ -1,0 +1,23 @@
+/*-- scss:defaults --*/
+// colors
+$navbar-bg: #FFFFFF;
+$navbar-fg: #000000;
+$navbar-hl: #800000;
+
+$sidebar-bg: #FFFFFF;
+$sidebar-fg: #000000;
+$sidebar-hl: #800000;
+
+$body-bg: #eae9e5;
+$body-color: #000000;
+
+$popover-bg: #FF6A3D;
+
+// fonts
+$main-font: "Georgia", serif;
+$headings-font: "Georgia", serif;
+
+/*-- scss:rules --*/
+ .navbar-dark .navbar-brand{
+   font-family: "Georgia", serif;
+}

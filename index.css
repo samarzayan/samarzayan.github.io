@@ -1,0 +1,27 @@
+/* css styles */
+
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #800000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+h1 {
+  color: #eae9e5;
+  font-family: "Trattatello", "Georgia", serif;
+}
+h2 {
+  color: #b6a265;
+  font-family: "Trattatello";
+}
+h3 {
+  color: #f4f3eb;
+  font-family: "Georgia", serif;
+}
+a {
+  color: #b6a265;
+}

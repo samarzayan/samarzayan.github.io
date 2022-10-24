@@ -1,1 +1,266 @@
-lesson 0
+---
+title: "Lesson 0"
+---
+
+{{< video https://www.youtube.com/embed/gGxe2mN3kAg >}}
+
+## About
+
+This lesson is a perfect guide on How To Fast.ai?
+
+It helps a learner in knowing
+
+1. How to get the most out of this course?
+2. How to make sure s/he finishes it?
+3. How to make sure it has been a productive learning experience?
+
+In an overall sense, this lesson gears a learner with the best approaches to this course which Jeremy heard from various students.
+
+Most often, some students, only after finishing the course, when they reach the end, realize what to do and what not to do and they begin again from the start. To avoid this does not happen, the tips shared in this lesson will be quite helpful.
+
+Apart from all this, the lesson depicts the actual mechanics of setting up two environments, Google Colab and AWS EC2. This is what we will be using while actually coding.
+
+:::{.callout-note}
+The coding environment is different in the 2022 version of the course. Hence, this setup may not be relevant.
+:::
+
+## Outcomes Of Students Who Completed The Course
+Thousands of students after completion of the course went on to:
+
+1. Create successful startups.
+2. Write research papers with high impact factors.
+3. Create new products for their companies.
+
+This course is a well-proven course which won a lot of awards.
+---
+## Two Types Of Learners
+There will always be two types of students. One who will finish the course and the second who will not.
+
+The delightful success stories of students are only meant for the ones who actually completed the course.
+
+Decide for yourself if you want to finish the course or not. It does take a lot in finishing the course as will be explained ahead.
+---
+## The fast.ai Textbook
+There is an actual textbook written by Jeremy and Sylvain which can be followed along with the course.
+
+The textbook is available for purchase on Amazon and is also available for free on Github as a [fastbook](https://github.com/fastai/fastbook). 
+
+The books looks really great on any format be it Kindle or Paperback, unlike most of the technical textbooks.
+(image)
+---
+## The Course
+Part 1 of the course goes through the initial half of the textbook and Part 2 for the latter half of the book. Each lesson covers a chapter or so of the book.
+
+:::{.callout-note}
+This was back in the 2019 version of the course.
+:::
+
+## Finish The Damn Course!
+Get it through your head to finish the course or finish half of the textbook. 
+
+Most people who come in drift away after a few days or weeks. 
+
+Structure your time and create a practical schedule and stick to it. "What day are you going to watch the lesson?", "What day are you going to do the assignments?"
+
+![Source](finish_it.gif)
+
+---
+## Do 'A' Project
+Apart from finishing the course, finish *one* polished project.
+---
+## Simple Goal
+1. **Finish** the course.
+2. **Finish** one project.
+---
+## Importance Of A Project
+It is only through one well-crafted project we can show off our skills and get recognized. 
+
+One of the former students took this advice to heart and made an AI that can produce music, it was featured on BBC and she got herself an exclusive role at OpenAI.
+(image)
+---
+## About The Project
+1. The project need not be something that no one built before. If you have found a very cool project done by others, you can create your own version too. That is fine!
+
+2. The project need not be world-changing.
+  * One of the students built a project for his fiancee that could recognize cousins.
+  * One of the students built an app called "Hot Dog Or Not Hot Dog" that was featured in the *Silicon Valley* TV series. It basically allows a user to take a pic of a food item and tell if it is a hot dog or not. [(The Clip)](https://www.youtube.com/watch?v=vIci3C4JkL0) 
+3. Or it can solve medicine as well :D!
+---
+## On Being Tenacious
+Tenacious means sticking to something till the end. This was found as the single most trait found among students who successfully completed the course. 
+
+A thousand hurdles will come our way in various forms and we must learn to pick ourselves back. 
+
+Tenacity is something we can choose! Just come back even if it is after a few months or even a year.
+---
+## Radek And His Inspiring Story
+Radek is one of the top alumni of the course and his story of making it big in ML is very inspiring.
+
+From being someone without a degree, not knowing how to code, and being stuck in a boring job, Radek made his way to winning Kaggle competitions and working in a medical AI startup . Currently, he is working in a nonprofit which is working on translating animal language. 
+
+He began his journey but failed many many times. He comprised all of his learning in the book [Meta-learning](https://rosmulski.gumroad.com/l/learn_machine_learning?_ga=2.241334018.1213967688.1655731670-1783632984.1649757689&_gl=1*r6ctvb*_ga*MTc4MzYzMjk4NC4xNjQ5NzU3Njg5*_ga_6LJN6D94N6*MTY1NTczMTY3MC4yLjAuMTY1NTczMTY3NS4w).
+---
+## Important Insights From The "Meta Learning" Book
+1. Do not keep preparing to do the course or the project. Just start!
+  * Some students go on jumping from MOOC to MOOC studying all sorts of things and they never start.
+  * Don't worry about the unknown stuff. The course will help us along the way.
+2. If one has no coding experience, s/he can take this opportunity to learn to Code. Harvard's CS50 is a good resource.
+3. There are a few topics that are expected to know as a CS student but are never taught. Some MIT students have created a lovely course that will help us learn these things and they called it [The Missing Semester Of Your CS Education](https://missing.csail.mit.edu/). This will help build the software environment foundations.
+
+:::{.callout-tip}
+As of 2022, the [Live Coding](https://www.youtube.com/watch?v=56sIyFjihEc&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM) playlist can help in setting up the necessary software environment replacing [The Missing Semester Of Your CS Education](https://missing.csail.mit.edu/) in my opinion.
+:::
+
+## Share Your Work
+Sharing the work and communicating it is a great way for us to enhance the learning process as well as make a brand or portfolio for us as we progress. 
+
+Get rid of the discomfort, fear, and anxiety of getting exposed and just share it.
+---
+## 4 Steps Of 'Doing' A Lesson
+**Step 1:** Watch the lecture/Read a chapter from the book
+
+**Step 2:** a) Run the notebook
+            b) Experiment with it, by trying to tweak things.
+
+**Step 3:** Reproduce the notebook from scratch
+
+**Step 4:** Try to run with different data sets
+
+Do not worry if you can't do all this from Week 1 right away. Move along and come back to do these cycles. 
+
+Once you have done all this, either at the starting or after coming back, you can confidently say that you have completed the lesson and extracted its juice.
+---
+## Notebook Servers VS Linux Servers
+For the actual coding environment, we have two options:
+1. Using Notebooks
+2. Using Linux
+
+We have cloud servers for both of these categories, so we need not worry about setting them up on our local computers or laptops. Meaning even if one doesn't have Jupyter Notebook installed, one can use the Notebook servers mentioned. Even if one doesn't have a Linux operating system, one can use the Linux servers mentioned. 
+
+The Notebook servers provided at the site will have all the code written and we just have to run it. It is simple for beginners. One can begin with this for the initial weeks. 
+
+Using Linux is the professional way of doing it. This is how things will be done at jobs or startups. Initially one can skip this, but it will be highly effective if we can go through this process of doing things. 
+
+Once we start to feel comfortable running the notebooks after Week 1 or Week 2, we can switch to the Linux servers.
+---
+## Tutorial On Getting Started With Colab
+Practical demonstration in the video, better to watch the part.
+:::{.callout-tip}
+Not relevant for the 2022 course as we use Kaggle NBs.
+:::
+
+## How To Not Do fast.ai
+By NOT building models. 
+
+Throughout the course, the sole purpose and the central activity of a learner must be running and building models. If a learner is not doing this, and instead, learning other things like Calculus, Real Analysis, etc. then s/he must stop and get back to building models. The course is meant for people who want to build models.
+---
+## Get Feedback Through Practicing
+Practicality is at the heart of really doing this course. 
+
+Find a way to measure what is working vs what is not working through practically creating a model. Most of the learners will sense positive feedback from Week 1 when they see they have built a cool model. 
+
+If you have read a research paper or something and you sense that you have elevated your understanding, then implement it. One cup of theory and one cup of practice!
+---
+## Read & Write Code Throughout The Course
+One of the major outcomes of the course is that a learner can transform him/herself into a better developer than he/she is at the beginning.
+
+And this happens only if we do the following throughout the course:
+1. Read Code
+2. Write Code
+
+Read the fast.ai source codes, read the notebook codes, read code written by others and write your own code.
+---
+## Twitter: Access The DL World Through It
+Through Twitter, one can access the whole world of DL and AI. Create a feed filled with cool and interesting things on DL and read it every day. Initially, we might understand only 0.5% of what the tweets are about but it is fine. We will slowly expand our horizons. 
+To get started:
+
+1. Get on Twitter 
+2. Follow [Jeremy](https://twitter.com/jeremyphoward)
+3. Go to his likes, and follow people who you find interesting
+
+Tweet your work as you progress and get recognized.
+---
+## Start Blogging
+Blogging takes us beyond twitter. 
+
+Blogging is not about what we had for dinner or about what our morning routines are like. 
+
+[This](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045) blog post can be a great convincing for you! 
+
+### What to write in a blog? 
+Following are a few suggestions:
+
+1. An idea we can keep in mind to begin blogging is this, "What things if I would have known a few months ago, would have helped me." There is always going to be someone who is one step behind us, and it can be helpful to them.  
+2. Convert a video or a talk and convert it into a blog. 
+  * **An example:** [Aman Arora](https://www.linkedin.com/in/aroraaman) one of the fast.ai alums converted Jeremy's [talk](https://www.youtube.com/watch?v=2uygOz2fORo) into a [blog](https://amaarora.github.io/2021/05/15/jh-meetup.html). 
+  * **Benefits:** People will be grateful to you and you can get recognized. The blog that Aman wrote was shared and highlighted by the [CEO](https://www.linkedin.com/in/adrian-turner-02a415145) of [Data61](https://data61.csiro.au/) which is a top Data Science body in Australia on LinkedIn.
+  * Most people prefer reading over watching a video and it can be helpful to them. You will learn and be useful at the same time.
+
+### Where to write? 
+Following are some easy to get started on the blogging journey. There is no reason for us to not to start blogging.
+1. [Fastpages](https://fastpages.fast.ai/)
+  * One cool thing about this is that we can convert documents and notebooks into blogs easily.
+  * It is in Github, so as we blog, we will learn about Git.
+  * It uses Markdown, which will help us learn it as we blog 
+2. [Google Sites](https://sites.google.com) 
+If you feel intimidated with Git you can hop on to Google Sites. It has various themes we can use.
+3. [Medium](https://medium.com/) 
+If you still think that Google Sites is time-consuming to get started you can start away at medium.
+
+:::{.callout-tip}
+As of 2022, [Quarto](https://quarto.org/) is a far better option than [fastpages](https://fastpages.fast.ai). [This](https://forums.fast.ai/t/fastpages-deprecating-fastpages-in-favor-of-quarto/99095) thread explains it in detail.
+:::
+
+## ML Coding VS Other Coding
+The key feature of ML Coding is generalization. 
+
+Once an ML Code is written and trained with one set of data, it can be applied to another set of data and get good results. 
+
+Even the pieces of codes we explore in the course have a strong ability to generalize themselves across various other types of data. So as we progress with the course, whenever we learn to build a model, one key question to ask constantly is "How will this model generalize well?". We need to learn measures of generalizations. 
+
+The places where it can generalize are broad, be it a Kaggle competition or a prototype, or a production unit at work.
+---
+## Importance Of A Good Validation Set
+We will learn about validation sets in Lesson 1, but Jeremy wanted to highlight the importance of selecting a good validation set here.
+
+The basic idea is this, in order to create a model which is really good and can be generalized well, we need to use data that facilitates well for the model so that it can be applied in real life. 
+
+Read [this](https://www.fast.ai/posts/2017-11-13-validation-sets.html) for more info.
+---
+## ML Code Is Hard To Write
+Jeremy always assumes that every line of ML code he writes is wrong and according to him he is right most of the time.
+ 
+Although there can be many ways the code can be wrong, one of the reasons for the hardness of writing ML code arises because most of the time we can not see we are wrong, unlike the usual software work, we can at least see our errors in front of us. 
+
+Some examples which might remain hidden are as follows:
+
+* Some random set of images being upside down and it got into the system.
+* Name not being stored in the database.
+* Title is not centered
+
+To fix this we need to begin by creating a baseline for a project.
+---
+## Baseline For Projects
+When beginning to do a project, we must begin first by creating a simple baseline and creating the simplest model we can.
+
+:::{.callout-important}
+Common mistakes: Trying to do a very big high-level complicated project for months and failing it.
+:::
+
+*"Successful ML models are built in the simplest possible ways which begin first by sending something from end-to-end first, and then are slowly incrementing it."*
+ 
+It might feel very silly and dumb, to begin with, but that's how all the pros do it.
+---
+## Kaggle Competitions As Projects
+Kaggle Competitions can be used as good HWs and doing projects. Begin on your first Kaggle competition, not as a competitor but just to learn. Pick a competition and go through the complete process of finishing it. It will teach us a lot. After a few months, you will be much developed in our learning and who knows we might even come in the top 50%. 
+
+Kaggle is closer to the real world and not completely representative, which makes it easier for us not to worry about deployment and inference speed but gives us that end-to-end experience.
+---
+## On Finding A Job
+Learners who completed Fast.ai course went on to grab very very great jobs. 
+
+As we progress with the course, we can parallelly build our job portfolios. Our job portfolios will be everything from posts on the forums, blogs we write, Github repositories, participation in Kaggle, and so on. 
+
+The standard big old companies might not understand the influence and depth of our work as most of the profiles are reviewed by HR members. 
+
+However, startups and many other companies can truly grasp our potential based on our impact on Github, Kaggle, etc.

@@ -4,11 +4,11 @@ project:
 website:
   title: "Samar Zayan"
   favicon: favicon.png
-  search: 
+  search:
     location: navbar
     type: overlay
   navbar:
-    left:
+    right:
       - text: "Home"
         file: index.qmd
       - text: "Blog"
@@ -17,7 +17,6 @@ website:
         file: fast.ai.qmd
       - text: "About"
         file: about.qmd
-    
   sidebar:
     - title: "fast.ai"
       style: "docked"
@@ -25,12 +24,12 @@ website:
         - fast.ai.qmd
         - section: "Practical Deep Learning For Coders"
           contents:
-            - section: "Lessons"      
+            - section: "Lesson Notes"
               contents:
                 - lesson0.qmd
                 - lesson1.qmd
             - text: "---"
-            - section: "Text Book"
+            - section: "Text Book Notes"
               contents:
                 - chapter1.qmd
             - text: "---"
@@ -42,16 +41,11 @@ website:
             - live_coding_1.qmd
             - live_coding_2.qmd
         - text: "---"
-
   page-navigation: true
   reader-mode: true
 format:
   html:
-    mainfont: "Georgia"
+    mainfont: "Ebrima"
     theme: theme.scss
     css: styles.css
     toc: true
-    
-
-
-

@@ -2,4 +2,15 @@
 title: "fast.ai"
 title-block-banner: fastai.png
 ---
-Hi
+## fast.ai
+Here I share all my learnings I gained from the [fast.ai](fast.ai) metaverse!
+
+Be it from courses like [Practical Deep Learning for Coders](https://course.fast.ai/) or from playlists like [Live Coding](https://www.youtube.com/watch?v=56sIyFjihEc&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM) or talks given by Jeremy Howard or Rachel Thomas and so on.
+
+You get the idea!
+
+## My Learning Goals
+I hae set up the following targets for myself:
+
+* Finish [Practical Deep Learning for Coders](https://course.fast.ai/) by the end of 2022.
+* Finish [From Deep Learning Foundations to Stable Diffusion](https://www.fast.ai/posts/part2-2022.html) by the first quarter of 2023.     

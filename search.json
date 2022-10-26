@@ -7,6 +7,13 @@
     "text": "I am Samar a data scientist in making.\nI have a background in education- I taught Math to high school kids and worked in various domains of the education sectors ranging from schools, NGOs and ed-tech platform. Check out here to know more about my life as an educator.\nI loved my days as an educator but I wanted more in life. I went on to “discover” myself and find my inner voice (whatever that means :p). After experimenting with various stuff I finally decided I wanted to pursue Data Science. I wish to work in Applied AI & Research in my coming years.\nI consider myself a multipotentialite. I have high interest in the Liberal Arts education apart from Data Science. I personally believe that Humanities education brings about the innate nature of humans- to feel and sense.\nI want to enormous passions in writing, coding, and teaching. I am hiinterested in art, philosophy"
   },
   {
+    "objectID": "Untitled8.html",
+    "href": "Untitled8.html",
+    "title": "Samar Zayan",
+    "section": "",
+    "text": "from IPython.display import YouTubeVideo\nYouTubeVideo('-ncJV0tMAjE')\n\n\n        \n        \n\n\n\n\nWelcome to Practical Deep Learning For Coders!\n\n!pip install -Uqq fastai duckduckgo_search\n\n     |█████▏                          | 10 kB 25.0 MB/s eta 0:00:01     |██████████▍                     | 20 kB 19.6 MB/s eta 0:00:01     |███████████████▋                | 30 kB 25.4 MB/s eta 0:00:01     |████████████████████▉           | 40 kB 20.2 MB/s eta 0:00:01     |██████████████████████████      | 51 kB 7.1 MB/s eta 0:00:01     |███████████████████████████████▎| 61 kB 8.3 MB/s eta 0:00:01     |████████████████████████████████| 62 kB 1.3 MB/s \n     |███▍                            | 10 kB 31.8 MB/s eta 0:00:01     |██████▉                         | 20 kB 37.1 MB/s eta 0:00:01     |██████████▏                     | 30 kB 45.5 MB/s eta 0:00:01     |█████████████▋                  | 40 kB 50.7 MB/s eta 0:00:01     |█████████████████               | 51 kB 39.6 MB/s eta 0:00:01     |████████████████████▍           | 61 kB 43.2 MB/s eta 0:00:01     |███████████████████████▊        | 71 kB 46.0 MB/s eta 0:00:01     |███████████████████████████▏    | 81 kB 48.5 MB/s eta 0:00:01     |██████████████████████████████▌ | 92 kB 41.9 MB/s eta 0:00:01     |████████████████████████████████| 96 kB 5.9 MB/s \nERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\nflask 1.1.4 requires click<8.0,>=5.1, but you have click 8.1.3 which is incompatible."
+  },
+  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
@@ -32,14 +39,14 @@
     "href": "lesson0.html#about",
     "title": "Lesson 0",
     "section": "About",
-    "text": "About\nThis was an entirely optional presentation titled as Lesson 0.\nThis lesson is a perfect guide on “How To fast.ai?”\nIt helps a learner in knowing:\n\nHow to get the most out of this course?\nHow to make sure s/he finishes it?\nHow to make sure it has been a productive learning experience?\n\nIn an overall sense, this lesson gears a learner with the best approaches to this course which Jeremy heard from various students.\nMost often, some students, only after finishing the course, when they reach the end, realize what to do and what not to do and they begin again from the start. To avoid this does not happen, the tips shared in this lesson will be quite helpful.\nApart from all this, the lesson depicts the actual mechanics of setting up two environments, Google Colab and AWS EC2. This is what we will be using while actually coding.\n\n\n\n\n\n\nNote\n\n\n\nThe coding environment is different in the 2022 version of the course. Hence, this setup may not be relevant for those takng the 2022 version."
+    "text": "About\nThis was an entirely optional presentation that was given in 2021 titled as Lesson 0.\n\n\n\nFigure 1: “How to fast.ai”\n\n\nThis lesson is a perfect guide on “How To fast.ai?”\nIt helps a learner in knowing:\n\nHow to get the most out of this course?\nHow to make sure s/he finishes it?\nHow to make sure it has been a productive learning experience?\n\nIn an overall sense, this lesson gears a learner with the best approaches to this course which Jeremy heard from various students.\nMost often, some students, only after finishing the course, when they reach the end, realize what to do and what not to do and they begin again from the start. To avoid this does not happen, the tips shared in this lesson will be quite helpful.\nApart from all this, the lesson depicts the actual mechanics of setting up two environments, Google Colab and AWS EC2, discussing preferences over one another. This is what we will be using while actually coding.\n\n\n\n\n\n\nNote\n\n\n\nThe coding environment is different in the 2022 version of the course. Hence, this setup may not be relevant for those takng the 2022 version."
   },
   {
     "objectID": "lesson0.html#outcomes-of-students-who-completed-the-course",
     "href": "lesson0.html#outcomes-of-students-who-completed-the-course",
     "title": "Lesson 0",
     "section": "Outcomes Of Students Who Completed The Course",
-    "text": "Outcomes Of Students Who Completed The Course\nThousands of students after completion of the course went on to:\n\nCreate successful startups.\nWrite research papers with high impact factors.\nCreate new products for their companies.\n\nThis course is a well-proven course which won a lot of awards."
+    "text": "Outcomes Of Students Who Completed The Course\nMany stdents, as in hundreds and thousands of students after going through this course went on to:\n\nCreate successful startups.\nWrite research papers with high impact factors.\nCreate new products for their companies.\n\nThis course is a well-proven course which won a lot of awards."
   },
   {
     "objectID": "lesson0.html#two-types-of-learners",
@@ -53,21 +60,21 @@
     "href": "lesson0.html#the-fast.ai-textbook",
     "title": "Lesson 0",
     "section": "The fast.ai Textbook",
-    "text": "The fast.ai Textbook\nThere is an actual textbook written by Jeremy and Sylvain Gugger which can be followed along with the course.\n\n\n\nFigure 1: fast.ai textbook\n\n\nThe textbook is available for purchase on Amazon and is also available for free on Github as a fastbook.\nThe books looks really great on any format be it Kindle or Paperback, unlike most of the technical textbooks. (image)"
+    "text": "The fast.ai Textbook\nThere is an actual textbook written by Jeremy and Sylvain Gugger which can be followed along with the course.\n\n\n\nFigure 2: fast.ai textbook\n\n\nThe textbook is available for purchase on Amazon and is also available for free on Github as a fastbook repo.\nIt was written in Jupyter Notebooks and then a software was written to convert that into the textbook.\nPeople like the book.\nOn a side note, Jeremy does not make any profit from the book, so he says don’t buy the book in order to thank him, but buy the book if you, the learner wants it, else one can read it for free if that works.\nThe books looks really great on any format be it Kindle or Paperback, unlike most of the technical textbooks."
   },
   {
     "objectID": "lesson0.html#the-course",
     "href": "lesson0.html#the-course",
     "title": "Lesson 0",
     "section": "The Course",
-    "text": "The Course\nPart 1 of the course goes through the initial half of the textbook and Part 2 for the latter half of the book. Each lesson covers a chapter or so of the book.\n\n\n\n\n\n\nNote\n\n\n\nThis was back in the 2019 version of the course."
+    "text": "The Course\nPart 1 of the course goes through the initial half of the textbook and Part 2 for the latter half of the book. Each lesson covers a chapter or so of the book.\n\n\n\n\n\n\nNote\n\n\n\nThis was back in the 2021 version of the course. I need to verify the overlap as of 2022."
   },
   {
     "objectID": "lesson0.html#finish-the-damn-course",
     "href": "lesson0.html#finish-the-damn-course",
     "title": "Lesson 0",
     "section": "Finish The Damn Course!",
-    "text": "Finish The Damn Course!\nGet it through your head to finish the course or finish half of the textbook.\nMost people who come in drift away after a few days or weeks.\nStructure your time and create a practical schedule and stick to it. “What day are you going to watch the lesson?”, “What day are you going to do the assignments?”\n\n\n\nSource"
+    "text": "Finish The Damn Course!\n\n\n\nFigure 3: Finish It\n\n\nGet it through your head to finish the course or finish half of the textbook.\nMost people who come in drift away after a few days or weeks and don’t finish it.\nStructure your time and create a practical schedule and stick to it. “What day are you going to watch the lesson?”, “What day are you going to do the assignments?”\nIf the learner’s intention upfront is not to finish the course, that is fine. But, if someones joins the course to with an intention to finish it and be an effective deep learning practitioner, must finish it off!\ntell your friends/spouse that it is your goal so that you get that social pressure which can help you finish it off.\n\n\n\n\n\n\nTip\n\n\n\nI told my brother, and he keeps asking me now and then, how it’s going! It helps me get back to it incase I drift away. Pick anything that works for you."
   },
   {
     "objectID": "lesson0.html#do-a-project",
@@ -81,14 +88,14 @@
     "href": "lesson0.html#simple-goal",
     "title": "Lesson 0",
     "section": "Simple Goal",
-    "text": "Simple Goal\n\nFinish the course.\nFinish one project."
+    "text": "Simple Goal\nSo to summarize, this is what a learner has gotta do:\n\nFinish the course.\nFinish one project."
   },
   {
     "objectID": "lesson0.html#importance-of-a-project",
     "href": "lesson0.html#importance-of-a-project",
     "title": "Lesson 0",
     "section": "Importance Of A Project",
-    "text": "Importance Of A Project\nIt is only through one well-crafted project we can show off our skills and get recognized.\nOne of the former students took this advice to heart and made an AI that can produce music, it was featured on BBC and she got herself an exclusive role at OpenAI. (image)"
+    "text": "Importance Of A Project\nIt is only through one well-crafted project we can show off our skills and get recognized.\nOne of the former students and a fantastic alumni, Christine McLeavy who now is at OpenAI, one of the top research organizations took this advice to heart given by Jeremy back then and made a fantastic AI system that could create new music using Deep Learning. Her work was featured and played on the BBC orchestra and helped her get the exclusive job at OpenAI\n\n\n\nFigure 4: McCleavy sharing her insights in a postcast with Sanyam, another former student\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe podcast can listened here."
   },
   {
     "objectID": "lesson0.html#about-the-project",
@@ -102,35 +109,35 @@
     "href": "lesson0.html#on-being-tenacious",
     "title": "Lesson 0",
     "section": "On Being Tenacious",
-    "text": "On Being Tenacious\nTenacious means sticking to something till the end. This was found as the single most trait found among students who successfully completed the course.\nA thousand hurdles will come our way in various forms and we must learn to pick ourselves back.\nTenacity is something we can choose! Just come back even if it is after a few months or even a year."
+    "text": "On Being Tenacious\nTenacious means sticking to something till the end. This was found as the single most trait found among students who successfully completed the course.\nA thousand hurdles will come our way in various forms and we must learn to pick ourselves back.\nTenacity is something we can choose! Just come back even if it is after a few months or even a year.\n\n\n\nFigure 5: On tenacity"
   },
   {
     "objectID": "lesson0.html#radek-and-his-inspiring-story",
     "href": "lesson0.html#radek-and-his-inspiring-story",
     "title": "Lesson 0",
     "section": "Radek And His Inspiring Story",
-    "text": "Radek And His Inspiring Story\nRadek is one of the top alumni of the course and his story of making it big in ML is very inspiring.\nFrom being someone without a degree, not knowing how to code, and being stuck in a boring job, Radek made his way to winning Kaggle competitions and working in a medical AI startup . Currently, he is working in a nonprofit which is working on translating animal language.\nHe began his journey but failed many many times. He comprised all of his learning in the book Meta-learning."
+    "text": "Radek And His Inspiring Story\nRadek is one of the top alumni of the course and his story of making it big in ML is very inspiring.\nFrom being someone without a degree, not knowing how to code, and being stuck in a boring job, Radek made his way to winning Kaggle competitions and working in a medical AI startup . Currently, he is working in a nonprofit which is working on translating animal language.\nHe began his journey but failed many many times. He comprised all of his learning in the book Meta-learning.\nIt is good to have some role models when beginning the Deep Learning journey and Radek is a very good one.\n\n\n\nFigure 6: Radek Insights"
   },
   {
     "objectID": "lesson0.html#important-insights-from-the-meta-learning-book",
     "href": "lesson0.html#important-insights-from-the-meta-learning-book",
     "title": "Lesson 0",
     "section": "Important Insights From The “Meta Learning” Book",
-    "text": "Important Insights From The “Meta Learning” Book\n\nDo not keep preparing to do the course or the project. Just start!\n\n\nSome students go on jumping from MOOC to MOOC studying all sorts of things and they never start.\nDon’t worry about the unknown stuff. The course will help us along the way.\n\n\nIf one has no coding experience, s/he can take this opportunity to learn to Code. Harvard’s CS50 is a good resource.\nThere are a few topics that are expected to know as a CS student but are never taught. Some MIT students have created a lovely course that will help us learn these things and they called it The Missing Semester Of Your CS Education. This will help build the software environment foundations.\n\n\n\n\n\n\n\nTip\n\n\n\nAs of 2022, the Live Coding playlist can help in setting up the necessary software environment replacing The Missing Semester Of Your CS Education in my opinion."
+    "text": "Important Insights From The “Meta Learning” Book\n\nDo not keep preparing to do the course or the project. Just start!\n\n\nSome students go on jumping from MOOC to MOOC studying all sorts of things and they never start.\nDon’t worry about the unknown stuff. The course will help us along the way. \n\n\nIf one has no coding experience, s/he can take this opportunity to learn to Code. Harvard’s CS50 is a good resource. \nThere are a few topics that are expected to know as a CS student but are never taught. Some MIT students have created a lovely course that will help us learn these things and they called it The Missing Semester Of Your CS Education. This will help build the software environment foundations. \n\n\n\n\n\n\n\nTip\n\n\n\nAs of 2022, the Live Coding playlist can help in setting up the necessary software environment replacing The Missing Semester Of Your CS Education in my opinion."
   },
   {
     "objectID": "lesson0.html#share-your-work",
     "href": "lesson0.html#share-your-work",
     "title": "Lesson 0",
     "section": "Share Your Work",
-    "text": "Share Your Work\nSharing the work and communicating it is a great way for us to enhance the learning process as well as make a brand or portfolio for us as we progress.\nGet rid of the discomfort, fear, and anxiety of getting exposed and just share it."
+    "text": "Share Your Work\nSharing the work and communicating it is a great way for us to enhance the learning process as well as make a brand or portfolio for us as we progress.\nGet rid of the discomfort, fear, and anxiety of getting exposed and just share it.\n\n\n\nFigure 10: Radek on sharing the work"
   },
   {
     "objectID": "lesson0.html#steps-of-doing-a-lesson",
     "href": "lesson0.html#steps-of-doing-a-lesson",
     "title": "Lesson 0",
     "section": "4 Steps Of ‘Doing’ A Lesson",
-    "text": "4 Steps Of ‘Doing’ A Lesson\nStep 1: Watch the lecture/Read a chapter from the book\nStep 2: a) Run the notebook b) Experiment with it, by trying to tweak things.\nStep 3: Reproduce the notebook from scratch\nStep 4: Try to run with different data sets\nDo not worry if you can’t do all this from Week 1 right away. Move along and come back to do these cycles.\nOnce you have done all this, either at the starting or after coming back, you can confidently say that you have completed the lesson and extracted its juice."
+    "text": "4 Steps Of ‘Doing’ A Lesson\nStep 1: Watch the lecture/Read a chapter from the book\nStep 2: a) Run the notebook b) Experiment with it, by trying to tweak things.\nStep 3: Reproduce the notebook from scratch\nStep 4: Try to run with different data sets\n\n\n\nFigure 11: 4 steps of doing a lesson\n\n\nDo not worry if you can’t do all this from Week 1 right away. Move along and come back to do these cycles.\nOnce you have done all this, either at the starting or after coming back, you can confidently say that you have completed the lesson and extracted its juice."
   },
   {
     "objectID": "lesson0.html#notebook-servers-vs-linux-servers",
@@ -144,49 +151,49 @@
     "href": "lesson0.html#tutorial-on-getting-started-with-colab",
     "title": "Lesson 0",
     "section": "Tutorial On Getting Started With Colab",
-    "text": "Tutorial On Getting Started With Colab\nPractical demonstration in the video, better to watch the part. :::{.callout-tip} Not relevant for the 2022 course as we use Kaggle NBs. :::"
+    "text": "Tutorial On Getting Started With Colab\nPractical demonstration in the video, better to watch the part.\n\n\n\n\n\n\nTip\n\n\n\nNot relevant for the 2022 course as we use Kaggle NBs."
   },
   {
     "objectID": "lesson0.html#how-to-not-do-fast.ai",
     "href": "lesson0.html#how-to-not-do-fast.ai",
     "title": "Lesson 0",
     "section": "How To Not Do fast.ai",
-    "text": "How To Not Do fast.ai\nBy NOT building models.\nThroughout the course, the sole purpose and the central activity of a learner must be running and building models. If a learner is not doing this, and instead, learning other things like Calculus, Real Analysis, etc. then s/he must stop and get back to building models. The course is meant for people who want to build models."
+    "text": "How To Not Do fast.ai\nBy NOT building models.\nThroughout the course, the sole purpose and the central activity of a learner must be running and building models. If a learner is not doing this, and instead, learning other things like Calculus, Real Analysis, etc. then s/he must stop and get back to building models. The course is meant for people who want to build models.\n\n\n\nFigure 12: How Not To Do fast.ai"
   },
   {
     "objectID": "lesson0.html#get-feedback-through-practicing",
     "href": "lesson0.html#get-feedback-through-practicing",
     "title": "Lesson 0",
     "section": "Get Feedback Through Practicing",
-    "text": "Get Feedback Through Practicing\nPracticality is at the heart of really doing this course.\nFind a way to measure what is working vs what is not working through practically creating a model. Most of the learners will sense positive feedback from Week 1 when they see they have built a cool model.\nIf you have read a research paper or something and you sense that you have elevated your understanding, then implement it. One cup of theory and one cup of practice!"
+    "text": "Get Feedback Through Practicing\nPracticality is at the heart of really doing this course.\nFind a way to measure what is working vs what is not working through practically creating a model. Most of the learners will sense positive feedback from Week 1 when they see they have built a cool model.\nIf you have read a research paper or something and you sense that you have elevated your understanding, then implement it. One cup of theory and one cup of practice!\n\n\n\nFigure 13: Right combination of theory & practice"
   },
   {
     "objectID": "lesson0.html#read-write-code-throughout-the-course",
     "href": "lesson0.html#read-write-code-throughout-the-course",
     "title": "Lesson 0",
     "section": "Read & Write Code Throughout The Course",
-    "text": "Read & Write Code Throughout The Course\nOne of the major outcomes of the course is that a learner can transform him/herself into a better developer than he/she is at the beginning.\nAnd this happens only if we do the following throughout the course: 1. Read Code 2. Write Code\nRead the fast.ai source codes, read the notebook codes, read code written by others and write your own code."
+    "text": "Read & Write Code Throughout The Course\nOne of the major outcomes of the course is that a learner can transform him/herself into a better developer than he/she is at the beginning.\nAnd this happens only if we do the following throughout the course: 1. Read Code 2. Write Code\nRead the fast.ai source codes, read the notebook codes, read code written by others and write your own code.\n\n\n\nFigure 14: Read & write code"
   },
   {
     "objectID": "lesson0.html#twitter-access-the-dl-world-through-it",
     "href": "lesson0.html#twitter-access-the-dl-world-through-it",
     "title": "Lesson 0",
     "section": "Twitter: Access The DL World Through It",
-    "text": "Twitter: Access The DL World Through It\nThrough Twitter, one can access the whole world of DL and AI. Create a feed filled with cool and interesting things on DL and read it every day. Initially, we might understand only 0.5% of what the tweets are about but it is fine. We will slowly expand our horizons. To get started:\n\nGet on Twitter\nFollow Jeremy\nGo to his likes, and follow people who you find interesting\n\nTweet your work as you progress and get recognized."
+    "text": "Twitter: Access The DL World Through It\nThrough Twitter, one can access the whole world of DL and AI. Create a feed filled with cool and interesting things on DL and read it every day. Initially, we might understand only 0.5% of what the tweets are about but it is fine. We will slowly expand our horizons. \nTo get started:\n\nGet on Twitter\nFollow Jeremy\nGo to his likes, and follow people who you find interesting\n\nTweet your work as you progress and get recognized."
   },
   {
     "objectID": "lesson0.html#start-blogging",
     "href": "lesson0.html#start-blogging",
     "title": "Lesson 0",
     "section": "Start Blogging",
-    "text": "Start Blogging\nBlogging takes us beyond twitter.\nBlogging is not about what we had for dinner or about what our morning routines are like.\nThis blog post can be a great convincing for you!\n\nWhat to write in a blog?\nFollowing are a few suggestions:\n\nAn idea we can keep in mind to begin blogging is this, “What things if I would have known a few months ago, would have helped me.” There is always going to be someone who is one step behind us, and it can be helpful to them.\n\nConvert a video or a talk and convert it into a blog.\n\n\nAn example: Aman Arora one of the fast.ai alums converted Jeremy’s talk into a blog.\nBenefits: People will be grateful to you and you can get recognized. The blog that Aman wrote was shared and highlighted by the CEO of Data61 which is a top Data Science body in Australia on LinkedIn.\nMost people prefer reading over watching a video and it can be helpful to them. You will learn and be useful at the same time.\n\n\n\nWhere to write?\nFollowing are some easy to get started on the blogging journey. There is no reason for us to not to start blogging. 1. Fastpages * One cool thing about this is that we can convert documents and notebooks into blogs easily. * It is in Github, so as we blog, we will learn about Git. * It uses Markdown, which will help us learn it as we blog 2. Google Sites If you feel intimidated with Git you can hop on to Google Sites. It has various themes we can use. 3. Medium If you still think that Google Sites is time-consuming to get started you can start away at medium.\n\n\n\n\n\n\nTip\n\n\n\nAs of 2022, Quarto is a far better option than fastpages. This thread explains it in detail."
+    "text": "Start Blogging\nBlogging takes us beyond twitter.\nBlogging is not about what we had for dinner or about what our morning routines are like.\nThis blog post can be a great convincing for you!\n\n\nWhat to write in a blog?\nFollowing are a few suggestions:\n\nAn idea we can keep in mind to begin blogging is this, “What things if I would have known a few months ago, would have helped me.” There is always going to be someone who is one step behind us, and it can be helpful to them.\n\nConvert a video or a talk and convert it into a blog.\n\n\nAn example: Aman Arora one of the fast.ai alums converted Jeremy’s talk into a blog.\nBenefits: People will be grateful to you and you can get recognized. The blog that Aman wrote was shared and highlighted by the CEO of Data61 which is a top Data Science body in Australia on LinkedIn.\nMost people prefer reading over watching a video and it can be helpful to them. You will learn and be useful at the same time.\n\n\n\n\nWhere to write?\nFollowing are some easy to get started on the blogging journey. There is no reason for us to not to start blogging. 1. Fastpages * One cool thing about this is that we can convert documents and notebooks into blogs easily. * It is in Github, so as we blog, we will learn about Git. * It uses Markdown, which will help us learn it as we blog 2. Google Sites If you feel intimidated with Git you can hop on to Google Sites. It has various themes we can use. 3. Medium If you still think that Google Sites is time-consuming to get started you can start away at medium.\n\n\n\n\n\n\nTip\n\n\n\nAs of 2022, Quarto is a far better option than fastpages. This thread explains it in detail."
   },
   {
     "objectID": "lesson0.html#ml-coding-vs-other-coding",
     "href": "lesson0.html#ml-coding-vs-other-coding",
     "title": "Lesson 0",
     "section": "ML Coding VS Other Coding",
-    "text": "ML Coding VS Other Coding\nThe key feature of ML Coding is generalization.\nOnce an ML Code is written and trained with one set of data, it can be applied to another set of data and get good results.\nEven the pieces of codes we explore in the course have a strong ability to generalize themselves across various other types of data. So as we progress with the course, whenever we learn to build a model, one key question to ask constantly is “How will this model generalize well?”. We need to learn measures of generalizations.\nThe places where it can generalize are broad, be it a Kaggle competition or a prototype, or a production unit at work."
+    "text": "ML Coding VS Other Coding\nThe key feature of ML Coding is generalization.\nOnce an ML Code is written and trained with one set of data, it can be applied to another set of data and get good results.\nEven the pieces of codes we explore in the course have a strong ability to generalize themselves across various other types of data. So as we progress with the course, whenever we learn to build a model, one key question to ask constantly is “How will this model generalize well?”. We need to learn measures of generalizations.\nThe places where it can generalize are broad, be it a Kaggle competition or a prototype, or a production unit at work.\n\n\n\nFigure 16: Hidden gem of ML"
   },
   {
     "objectID": "lesson0.html#importance-of-a-good-validation-set",
@@ -200,28 +207,28 @@
     "href": "lesson0.html#ml-code-is-hard-to-write",
     "title": "Lesson 0",
     "section": "ML Code Is Hard To Write",
-    "text": "ML Code Is Hard To Write\nJeremy always assumes that every line of ML code he writes is wrong and according to him he is right most of the time.\nAlthough there can be many ways the code can be wrong, one of the reasons for the hardness of writing ML code arises because most of the time we can not see we are wrong, unlike the usual software work, we can at least see our errors in front of us.\nSome examples which might remain hidden are as follows:\n\nSome random set of images being upside down and it got into the system.\nName not being stored in the database.\nTitle is not centered\n\nTo fix this we need to begin by creating a baseline for a project."
+    "text": "ML Code Is Hard To Write\n\n\n\nFigure 17: Radek’s insights\n\n\nJeremy always assumes that every line of ML code he writes is wrong and according to him he is right most of the time.\nAlthough there can be many ways the code can be wrong, one of the reasons for the hardness of writing ML code arises because most of the time we can not see we are wrong, unlike the usual software work, we can at least see our errors in front of us.\nSome examples which might remain hidden are as follows:\n\nSome random set of images being upside down and it got into the system.\nName not being stored in the database.\nTitle is not centered\n\nTo fix this we need to begin by creating a baseline for a project."
   },
   {
     "objectID": "lesson0.html#baseline-for-projects",
     "href": "lesson0.html#baseline-for-projects",
     "title": "Lesson 0",
     "section": "Baseline For Projects",
-    "text": "Baseline For Projects\nWhen beginning to do a project, we must begin first by creating a simple baseline and creating the simplest model we can.\n\n\n\n\n\n\nImportant\n\n\n\nCommon mistakes: Trying to do a very big high-level complicated project for months and failing it.\n\n\n“Successful ML models are built in the simplest possible ways which begin first by sending something from end-to-end first, and then are slowly incrementing it.”\nIt might feel very silly and dumb, to begin with, but that’s how all the pros do it."
+    "text": "Baseline For Projects\n\n\n\nFigure 18: On baseline for projects\n\n\nWhen beginning to do a project, we must begin first by creating a simple baseline and creating the simplest model we can.\n\n\n\n\n\n\nImportant\n\n\n\nCommon mistakes: Trying to do a very big high-level complicated project for months and failing it.\n\n\n“Successful ML models are built in the simplest possible ways which begin first by sending something from end-to-end first, and then are slowly incrementing it.”\nIt might feel very silly and dumb, to begin with, but that’s how all the pros do it."
   },
   {
     "objectID": "lesson0.html#kaggle-competitions-as-projects",
     "href": "lesson0.html#kaggle-competitions-as-projects",
     "title": "Lesson 0",
     "section": "Kaggle Competitions As Projects",
-    "text": "Kaggle Competitions As Projects\nKaggle Competitions can be used as good HWs and doing projects. Begin on your first Kaggle competition, not as a competitor but just to learn. Pick a competition and go through the complete process of finishing it. It will teach us a lot. After a few months, you will be much developed in our learning and who knows we might even come in the top 50%.\nKaggle is closer to the real world and not completely representative, which makes it easier for us not to worry about deployment and inference speed but gives us that end-to-end experience."
+    "text": "Kaggle Competitions As Projects\nKaggle Competitions can be used as good HWs and doing projects. Begin on your first Kaggle competition, not as a competitor but just to learn. Pick a competition and go through the complete process of finishing it. It will teach us a lot. After a few months, you will be much developed in our learning and who knows we might even come in the top 50%.\nKaggle is closer to the real world and not completely representative, which makes it easier for us not to worry about deployment and inference speed but gives us that end-to-end experience.\n\n\n\nFigure 19: On Kaggle Competitions"
   },
   {
     "objectID": "lesson0.html#on-finding-a-job",
     "href": "lesson0.html#on-finding-a-job",
     "title": "Lesson 0",
     "section": "On Finding A Job",
-    "text": "On Finding A Job\nLearners who completed Fast.ai course went on to grab very very great jobs.\nAs we progress with the course, we can parallelly build our job portfolios. Our job portfolios will be everything from posts on the forums, blogs we write, Github repositories, participation in Kaggle, and so on.\nThe standard big old companies might not understand the influence and depth of our work as most of the profiles are reviewed by HR members.\nHowever, startups and many other companies can truly grasp our potential based on our impact on Github, Kaggle, etc."
+    "text": "On Finding A Job\nLearners who completed Fast.ai course went on to grab very very great jobs.\nAs we progress with the course, we can parallelly build our job portfolios. Our job portfolios will be everything from posts on the forums, blogs we write, Github repositories, participation in Kaggle, and so on.\nThe standard big old companies might not understand the influence and depth of our work as most of the profiles are reviewed by HR members.\nHowever, startups and many other companies can truly grasp our potential based on our impact on Github, Kaggle, etc.\n\n\n\nFigure 20: On finding a job"
   },
   {
     "objectID": "lesson0.html#closing",
@@ -273,6 +280,13 @@
     "text": "Fav"
   },
   {
+    "objectID": "reo.html",
+    "href": "reo.html",
+    "title": "Samar Zayan",
+    "section": "",
+    "text": "from google.colab import drive\n\n\n!pip install -Uq fastai\n\n     |████████████████████████████████| 188 kB 5.3 MB/s \n     |████████████████████████████████| 60 kB 6.5 MB/s \n\n\n\nimport fastai\n\n\nfrom fastai.vision.all import *\n\n\n!pip install -Uqq fastbook\nimport fastbook\nfastbook.setup_book()\nfrom fastbook import *\nfrom fastai.vision.widgets import *\n\n     |████████████████████████████████| 720 kB 5.3 MB/s \n     |████████████████████████████████| 1.2 MB 42.8 MB/s \nMounted at /content/gdrive\n\n\n\nfruits = 'Apples', 'Bananas', 'Oranges'\n\n\npath = 'gdrive/MyDrive/Fruits'\np_path = Path(path)\nfns = get_image_files(path)\nfns\n\n(#225) [Path('gdrive/MyDrive/Fruits/Apples/apple_10.jpg'),Path('gdrive/MyDrive/Fruits/Apples/apple_12.jpg'),Path('gdrive/MyDrive/Fruits/Apples/apple_11.jpg'),Path('gdrive/MyDrive/Fruits/Apples/apple_1.jpg'),Path('gdrive/MyDrive/Fruits/Apples/apple_23.jpg'),Path('gdrive/MyDrive/Fruits/Apples/apple_25.jpg'),Path('gdrive/MyDrive/Fruits/Apples/apple_19.jpg'),Path('gdrive/MyDrive/Fruits/Apples/apple_2.jpg'),Path('gdrive/MyDrive/Fruits/Apples/apple_18.jpg'),Path('gdrive/MyDrive/Fruits/Apples/apple_28.jpg')...]\n\n\n\nclass DataLoaders(GetAttr):\n  def __init__(self, *loaders): self.loaders = loaders\n  def __getitem__(self, i): return self.loaders[i]\n  train,valid = add_props(lambda i,self: self[i])\n\n\nFRUITS = DataBlock(\n  blocks=(ImageBlock, CategoryBlock),\n  get_items=get_image_files,\n  splitter=RandomSplitter(valid_pct=0.2, seed=42),\n  get_y=parent_label,\n  item_tfms=Resize(128))\n\n\ndls = FRUITS.dataloaders(path)\n\n\ndls.valid.show_batch(max_n=4, nrows=1)\n\n\n\n\n\nlearn = cnn_learner(dls, resnet34, metrics=error_rate)\nlearn.fine_tune(4)\n\nDownloading: \"https://download.pytorch.org/models/resnet34-b627a593.pth\" to /root/.cache/torch/hub/checkpoints/resnet34-b627a593.pth\n\n\n\n\n\n\n\n\n\n\n\n  \n    \n      epoch\n      train_loss\n      valid_loss\n      error_rate\n      time\n    \n  \n  \n    \n      0\n      1.894089\n      0.845980\n      0.244444\n      00:32\n    \n  \n\n\n\n/usr/local/lib/python3.7/dist-packages/PIL/Image.py:960: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images\n  \"Palette images with Transparency expressed in bytes should be \"\n/usr/local/lib/python3.7/dist-packages/PIL/Image.py:960: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images\n  \"Palette images with Transparency expressed in bytes should be \"\n\n\n\n\n\n\n\n\n  \n    \n      epoch\n      train_loss\n      valid_loss\n      error_rate\n      time\n    \n  \n  \n    \n      0\n      1.096299\n      0.454413\n      0.222222\n      00:05\n    \n    \n      1\n      0.843671\n      0.235754\n      0.066667\n      00:05\n    \n    \n      2\n      0.614250\n      0.129964\n      0.022222\n      00:05\n    \n    \n      3\n      0.477148\n      0.099035\n      0.022222\n      00:07\n    \n  \n\n\n\n/usr/local/lib/python3.7/dist-packages/PIL/Image.py:960: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images\n  \"Palette images with Transparency expressed in bytes should be \"\n/usr/local/lib/python3.7/dist-packages/PIL/Image.py:960: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images\n  \"Palette images with Transparency expressed in bytes should be \"\n/usr/local/lib/python3.7/dist-packages/PIL/Image.py:960: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images\n  \"Palette images with Transparency expressed in bytes should be \"\n/usr/local/lib/python3.7/dist-packages/PIL/Image.py:960: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images\n  \"Palette images with Transparency expressed in bytes should be \"\n/usr/local/lib/python3.7/dist-packages/PIL/Image.py:960: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images\n  \"Palette images with Transparency expressed in bytes should be \"\n/usr/local/lib/python3.7/dist-packages/PIL/Image.py:960: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images\n  \"Palette images with Transparency expressed in bytes should be \"\n/usr/local/lib/python3.7/dist-packages/PIL/Image.py:960: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images\n  \"Palette images with Transparency expressed in bytes should be \"\n\n\n\ninterp = ClassificationInterpretation.from_learner(learn)\ninterp.plot_confusion_matrix()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ninterp.plot_top_losses(5, nrows=1)\n\n\n\n\n\n\n\n\n\n\n\n\nlearn.export()\npath = Path()\npath.ls(file_exts='.pkl')\n#Output (#1) [Path('export.pkl')]\n\n(#1) [Path('export.pkl')]\n\n\n\nlearn_inf = load_learner(path/'export.pkl')\nlearn_inf.dls.vocab\n\n['Apples', 'Bananas', 'Oranges']\n\n\n\nbtn_upload = widgets.FileUpload()\nbtn_upload\n\n\n\n\n\nimg = PILImage.create(btn_upload.data[-1])\nout_pl = widgets.Output()\nout_pl.clear_output()\nwith out_pl: display(img.to_thumb(128,128))\nout_pl\n\n\n\n\n\npred,pred_idx,probs = learn_inf.predict(img)\n\n\n\n\n\n\n\n\n\nlbl_pred = widgets.Label()\nlbl_pred.value = f'Prediction: {pred}; Probability: {probs[pred_idx]:.04f}'\nlbl_pred\n\n\n\n\n\nbtn_run = widgets.Button(description='Classify')\nbtn_run\n\n\n\n\n\ndef on_click_classify(change):\n  img = PILImage.create(btn_upload.data[-1])\n  out_pl.clear_output()\n  with out_pl: display(img.to_thumb(128,128))\n  pred,pred_idx,probs = learn_inf.predict(img)\n  lbl_pred.value = f'Prediction: {pred}; Probability: {probs[pred_idx]:.04f}'\nbtn_run.on_click(on_click_classify)\nbtn_upload = widgets.FileUpload()\n\n\nVBox([widgets.Label('Select your image!'),\nbtn_upload, btn_run, out_pl, lbl_pred])"
+  },
+  {
     "objectID": "books.html",
     "href": "books.html",
     "title": "Samar Zayan",
@@ -287,11 +301,137 @@
     "text": "LC 1"
   },
   {
-    "objectID": "lesson1.html",
-    "href": "lesson1.html",
-    "title": "Samar Zayan",
-    "section": "",
-    "text": "lesson 1"
+    "objectID": "lesson1.html#introduction",
+    "href": "lesson1.html#introduction",
+    "title": "Lesson 1",
+    "section": "Introduction",
+    "text": "Introduction\nWelcome to Practical Deep Learning For Coders!\nThis is the fifth version of the course.\nIt’s the first new one that has been done in 2 years since the previous version in 2020 and a lot of cool new things have come up along the way to cover.\n\n\n\nFigure 1: fast.ai 2022"
+  },
+  {
+    "objectID": "lesson1.html#a-big-jump-since-2015",
+    "href": "lesson1.html#a-big-jump-since-2015",
+    "title": "Lesson 1",
+    "section": "A Big Jump Since 2015",
+    "text": "A Big Jump Since 2015\nIt is amazing how much things have changed.\nBelow is an xkcd (highly popular among most coders and alike) comic from the end of 2015 which depicts the situation back then.\n\n\n\nFigure 2: An xkcd joke\n\n\nIt can be hard to tell what’s easy and what’s impossible in computing.\nIn 2015 it was nearly impossible to create a code that can check if an image is of a bird or not! So impossible that it became the idea of a joke.\nNow in 2022, we can pull it off for free in under 2 minutes."
+  },
+  {
+    "objectID": "lesson1.html#is-it-a-bird",
+    "href": "lesson1.html#is-it-a-bird",
+    "title": "Lesson 1",
+    "section": "Is It A Bird?",
+    "text": "Is It A Bird?\nThe following Python code does it for us. Surprisingly there is very little code. because of the following reasons:\n\nPython is a very concise language, (but not too concise). It has fewer boilerplate than other languages.\nUsing the fast.ai library makes a lot of things convenient for us.\n\n\n!pip install -Uqq fastai\n\nWhenever using a cloud platform like Colab or JNs in Kaggle, it is a good practice to have this cell at the top. Running the above cell makes sure that the most recent version of any library/software is used. Older versions can run into some problems of not running smoothly.\n\nfrom fastbook import *\n\n\nurls = search_images_ddg('bird photos', max_images = 1)\nlen(urls), urls[0]\n\n(1,\n 'http://3.bp.blogspot.com/-HBC7eqEDUck/UeBGRtqhpXI/AAAAAAAADfw/LXvw7qFgo8I/s1600/Flamingo-Bird.jpg')\n\n\nHere we are searching in DuckDuckGo for images of birds and their URLs and stored in the variable urls.\nThe number of URLs and the URL of the first image is outputted.\n\ndest = Path('bird.jpg')\nif not dest.exists(): download_url(urls[0], dest, show_progress = False)\n\n\nim = Image.open(dest)\nim.to_thumb(256, 256)\n\n\n\n\nWe download the image, the first one.\nSo, the above script is something that can download images of birds (or anything for that matter) from the internet.\nOur goal is to build a system that can recognize images that are birds or not birds. Computers or models need numbers as inputs to work with. Luckily images are indeed made of numbers. PixSpy is an online viewer which helps us see these numbers in an image.\nExplanation of how images are stored…?\n\nsearches = 'forest', 'bird'\npath = Path('bird_or_not')\n\nif not path.exists():\n    for o in searches:\n        dest = path/o\n        dest.mkdir(exist_ok = True)\n        results = search_images_ddg(f'{o} photo')\n        download_images(dest, urls = results[:200])\n        resize_images(dest, max_size = 400, dest = dest)\n\nTo train our model, we need images of birds and non-birds, but DuckDuckGo or Google doesn’t show images of non-birds. So, we went with something like images of forests.\nIn the searches, we went and searched for forest images and bird images, and then downloaded and resized them, about 200 of them each.\nWe are resizing it to small pixels because computers take a large amount of time to just open an image that is larger in size.\n\nfailed = verify_images(get_image_files(path))\nfailed.map(Path.unlink);\n\nWhen we download images we often get a few broken ones(?)\nA model does not work successfully with broken images.\nThe above piece of code finds these broken images and unlinks them.\n{python} dls = DataBlock( blocks=(ImageBlock, CategoryBlock), get_items=get_image_files, splitter=RandomSplitter(valid_pct=0.2, seed=42), get_y=parent_label, item_tfms=[Resize(192, method=‘squish’)] ).dataloaders(path, bs=32) dls.show_batch(max_n=6)\n{python} dls = DataBlock( blocks = (ImageBlock, CategoryBlock), get_items = get_image_files, splitter = RandomSplitter(valid_pct = 0.2, seed = 42), get_y = parent_label, item_tfms = [Resize(192, method = ‘squish’)] ).dataloaders(path)\ndls.show_batch(max_n = 6)\nNow, we create what is called a data block.\nData block gives fast.ai library all the information of an image that it needs to create a computer vision model. It gets all the image files that we downloaded and shows us some, let us say 6. We can easily check the data with this.\nSo now we have downloaded 200 images of birds and forests each and have checked them.\n{python} learn = cnn_learner(dls, resnet18, metrics = error_rate) learn.fine_tune(3)\nHere, the model learns it. This now runs through every photo 400 and learns about how a bird or a forest looks like.\nOverall it took under 30 s which was enough to finish doing what we saw in the comic.\n{python} is_bird, _, probs = learn.predict(PILImage.create(‘bird.jpg’)) print(f”This is a: {is_bird}.”) print(f”Probability it’s a bird: {probs[0]:.4f}“)\nBy passing in our own image, we can check if an image is a bird or not with the probability rounded to the nearest to 4 decimal places.\nHence, something extraordinary has happened since 2015, something which was considered nearly impossible. What was once a joke, can now be done on our laptop in under 2 minutes."
+  },
+  {
+    "objectID": "lesson1.html#key-takeaway-from-the-model-we-ran",
+    "href": "lesson1.html#key-takeaway-from-the-model-we-ran",
+    "title": "Lesson 1",
+    "section": "Key Takeaway From The Model We Ran",
+    "text": "Key Takeaway From The Model We Ran\nClearly, creating real-world deep learning working codes does not require:\n\nMuch Code\nMuch Math\nMuch Time\nMuch Data\nExpensive Computers\n\nHence, doing DL is pretty much accessible to everyone."
+  },
+  {
+    "objectID": "lesson1.html#deep-learning-the-current-world-around-us",
+    "href": "lesson1.html#deep-learning-the-current-world-around-us",
+    "title": "Lesson 1",
+    "section": "Deep Learning & The Current World Around Us",
+    "text": "Deep Learning & The Current World Around Us\nDL is evolving rapidly, thereby giving rise to various new stuff. Following are some recent developments that came about a few weeks before the start of this course.\n\nDeep Learning & Art\n\nDALL.E 2, is an AI that can create real artistic images based on the descriptions we give it.  \nMidjourney, is another similar platform. \nSelf motivated artists use DL to create their own art working on a project for months. \n\nMany fast.ai alums having a background in art have went on to create wonderful arts using DL.\n\n\nDeep Learing & Language\n\nPathways Language Model (PaLM) from Google can take an English question as an input and return its output an answer with the explanation or “thinking”. The diversity is vast ranging from Math problems to explaining jokes and beyond. \n\nIn short, DL is doing a lot that we would have considered impossible otherwise."
+  },
+  {
+    "objectID": "lesson1.html#importance-of-ethics",
+    "href": "lesson1.html#importance-of-ethics",
+    "title": "Lesson 1",
+    "section": "Importance Of Ethics",
+    "text": "Importance Of Ethics\nAn important aspect to keep in consideration when venturing into solving and doing these cool things is Ethics. This will be touched upon in the course, but there is a full ethics course called Practical Data Ethics taught by Dr. Rachel Thomas that covers things in detail."
+  },
+  {
+    "objectID": "lesson1.html#jeremys-explorations-in-education",
+    "href": "lesson1.html#jeremys-explorations-in-education",
+    "title": "Lesson 1",
+    "section": "Jeremy’s Explorations In Education",
+    "text": "Jeremy’s Explorations In Education\nApart from being an AI Researcher, Jeremy is a homeschooling primary school teacher. This has led him to study education and bring the best education practices into his classrooms."
+  },
+  {
+    "objectID": "lesson1.html#coloured-cups",
+    "href": "lesson1.html#coloured-cups",
+    "title": "Lesson 1",
+    "section": "Coloured Cups",
+    "text": "Coloured Cups\nOne of these practices is the Coloured Cups practice taken from an educator Dylan Wiliam which is an effective way for a teacher to get an idea of the classroom’s understanding of the lesson or a topic as it is being taught.\nThe idea is simple! All the students in the classrooms have 3 cups, a green cup, a yellow cup, and a red cup each reflecting various levels of understanding. Green means the student is understanding well, yellow means s/he is not quite sure what is going on, and red means the student has no idea of what is going on. As the lesson is being taught, the students put a cup on their desks and the teacher can see the classroom to get a sense of how the students are following along.\nFor this course, a virtual setup was made and Jeremy could see it from his end on the teacher version.\nThe above site was made by Radek one evening, one of the top Fast.ai alums and TA for the course.\n\n\n\nFigure 3: fast.ai version of the “Colored Cups”\n\n\n\nTakeaway\nAs a learner, it is quite helpful to be self-aware of our situation. Hence, when taking the course independently, we can constantly ask ourselves how we are on the level of understanding.\nWhen we are at red the level, it is better to approach the forums and ask questions."
+  },
+  {
+    "objectID": "lesson1.html#a-very-different-approach-to-doing-fast.ai",
+    "href": "lesson1.html#a-very-different-approach-to-doing-fast.ai",
+    "title": "Lesson 1",
+    "section": "A Very Different Approach To Doing fast.ai",
+    "text": "A Very Different Approach To Doing fast.ai\nWe began this course, by jumping right in by running a model. We did not do an in-depth review of Linear Algebra and Calculus.\nThis way of teaching is influenced by Jeremy’s two of the favourite educators Dylan Wiliam and Paul Lockhart (and many others), who claim that learning with a context at hand makes it much better for the learner to learn.\nThe way we learn math at school in a very dull way is first we learn counting, then adding, then decimals, blah blah blah and 15 years later in grad-school we do the actual cool stuff. This is not the way most people learn effectively.\nThe best way to learn is the way we learn sports. We jump right in on the ground and start playing it instead of sitting in a classroom and studying the physics of the sport.\nDo not worry though, we will go in-depth as we progress as the most sophisticated technically detailed class out there. but first, we focus on building and deploying models. we will learn why and how things work later.\nFolks having a technical background might find it difficult to cope with this style.\nThere will be a lot of tricks and cool learning philosophies that will be embedded and scattered throughout this course, sometimes it will be called out by Jeremy sometimes it won’t but it will be there."
+  },
+  {
+    "objectID": "lesson1.html#the-book",
+    "href": "lesson1.html#the-book",
+    "title": "Lesson 1",
+    "section": "The Book",
+    "text": "The Book\nThe course is closely based on the textbook written by Jeremy and Sylvain titled Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD.\nThe course will not use any materials from the book directly which might come as a surprise as we read, but the reason is that important educational research literature claims that learners learn best when the same thing is expressed in multiple different ways. The book will have the same information presented in a different way.\nOne of the bits of the HW is to read the corresponding chapter of the book.\nA lot of people love the book\n\n\n\nFigure : fast.ai textbook"
+  },
+  {
+    "objectID": "lesson1.html#about-jeremy",
+    "href": "lesson1.html#about-jeremy",
+    "title": "Lesson 1",
+    "section": "About Jeremy",
+    "text": "About Jeremy\nSpent 30 years of his life working around DL & ML.\nHe built multiple companies centered around DL.\nHe is the highest-ranked competitor on Kaggle.\n\n\n\nFigure : About Jeremy\n\n\nOne of his companies Enlitic was the first company to specialize in DL for medicine.\nIt made it to the top 20 smartest companies in 2016 by MIT Technology Review.\n\n\n\nFigure : Enlitic featured in MIT Tech Review\n\n\nHe started fast.ai along with Rachel Thomas a few years ago and it had a big impact in the world already.\n\n\n\nFigure : fastai media coverage\n\n\nApart from the company’s success, along with the students they have had global recognitions for multiple projects and competitions.\nOne of them is their win in the DAWNBench competition, in which they demonstrated how they can train big neural networks, faster and cheaper than anybody in the world. That was a very big step in 2018.\n\n\n\nFigure : fastai vs Google\n\n\nSooner the work made a big difference. Google and NVIDIA started using their approaches and methods to optimise many of their projects.\n\n\n\nFigure : fastai used at NVIDIA\n\n\nHe is the inventor of the ULMFIT algorithm, which according to the  was one of the two key foundations behind the modern NLP revolution.\nInterestingly, the ULMFIT model did not appear in the journal first, but in the 2016 fast.ai course in lesson 4 and was later developed into a paper.\n\n\n\nFigure : Jeremy featured in an NLP textbook\n\n\nSince, the first year of teaching the course it got noticed by HBR\n\n\n\nFigure : Jeremy featured in an NLP textbook\n\n\nAnd the course is loved by most of them on YouTube.\n\n\n\nFigure : Lecture YouTube analytics\n\n\nMany alumni went on to do great things."
+  },
+  {
+    "objectID": "lesson1.html#importance-of-the-course-in-the-industry",
+    "href": "lesson1.html#importance-of-the-course-in-the-industry",
+    "title": "Lesson 1",
+    "section": "Importance Of The Course In The Industry",
+    "text": "Importance Of The Course In The Industry\nThe course is widely used in industry and research with a lot of success.\nAndrej Karpathy said that everybody who joins the Tesla AI team are required to do this course.\nIn OpenAI all the residents joining are required to do this course."
+  },
+  {
+    "objectID": "lesson1.html#comparison-between-learning-models-now-vs-back-then",
+    "href": "lesson1.html#comparison-between-learning-models-now-vs-back-then",
+    "title": "Lesson 1",
+    "section": "Comparison Between Learning Models Now VS Back Then",
+    "text": "Comparison Between Learning Models Now VS Back Then\nA surprising question to ask is how was our model able to tell if an image is of a bird or not. Why wasn’t it able to do earlier?\nLet us explore how image recognition was done in 2012, but before that, it is important to understand a few important terms.\n\nPathology\nA field or a branch of medicine, that deals with studying human tissue for the diagnosis of diseases.\nPathologists basically take samples of the human specimen and study it under microscopes to diagnose some disease, be it cancer, etc.\n\n\nComputational Pathology:\nUsing computer techniques in the process of pathology, i.e., using coding/ML/DL in order to study human tissues and predict the diagnosis of a disease.\n\n\nH&E Images\nWhen a pathologist studies a cell under a microscope, it is easier for him/her to see it clearly, when the cell is stained with some dye.\nA dye is a substance that gives colour to the substrate (to which it is applied to), for distinguishing purposes without chemically bonding with the substrate. Pigments on the other hand chemically bond with the substrate changing its molecular structure.\nIn medicine, the staining is done mostly by two dyes- hematoxylin and eosin.\nHematoxylin shows the ribosomes, chromatin (genetic material) within the nucleus, and other structures in a deep blue-purple colour.\nEosin shows the cytoplasm, collagen, connective tissue, and other structures that surround and support the cell as an orange-pink-red colour.\nHence, staining with hematoxylin and eosin (referred to as H & E staining) helps identify different types of cells and tissues and provides important information about the pattern, shape, and structure of cells in a tissue sample. It is used to help diagnose diseases, such as cancer.\nThe images or samples collected after the staining are called H&E images.\nTo summarize H & E images are images of various cells which are stained with two dyes- hematoxylin and eosin, in order to study them for diagnosis of a disease.\nNow let us get started.\n\n\nThe Story\n\n\n\nFigure : ML back then\n\n\nIn 2012, at Stanford, a diverse team of computational pathologists did a very successful and very famous project, which was exploring the 5-year survival chances of a cancer patient by looking at their histopathology slides.\nWhat they did back then was a classic Machine Learning approach.\nJeremy spoke to the senior author of the project, Daphne Koller, and asked why they didn’t use Deep Learning. Apparently, at that time DL wasn’t on the radar. Hence, this was a pre-deep learning approach.\nOne visible answer to how we are able to create a model for a bird recognizer is because of deep learning. The question then is, What is it exactly that is happening with DL, which could not happen with ML back then? Let us see!\nSo the way they did this, was gathered around a group of experts from multi-disciplinary fields ranging from Mathematicians to Computer Scientists, to Pathologists, and so on, and worked on building and creating this idea for “features”, features they did not even know of to include in their approach for image recognition.\nThere were thousands and thousands of these features. It took a lot of years, a lot of people, a lot of code, and a lot of math.\nOnce they got sufficient features they fed it to an ML model, a logistic regression model in this case.\nComing back to the question earlier, the difference between ML & DL is that DL uses NNs, and NNs don’t require humans to define any features for it. NNs develop the features themselves as it learns. That was the big difference."
+  },
+  {
+    "objectID": "lesson1.html#how-dl-learns-features",
+    "href": "lesson1.html#how-dl-learns-features",
+    "title": "Lesson 1",
+    "section": "How DL Learns Features?",
+    "text": "How DL Learns Features?\nIn 2015, Matt Zeiler and Rob Fergus took a trained NN and looked inside it to see what it had learned about the features.\nBut wait?! What do we mean by looking inside a NN? It means looking at the weights.\nSo they looked at the weights inside and drew a picture of them. The following image shows the 9 sets of weights they found each representing a pattern in an image.\n\n\n\nFigure : Layer 1\n\n\nDeep Learning is deep because it takes the previous features and combines it with other features to create and detect more advanced features.\n\n\n\nFigure : Layer 2\n\n\nSo in neural networks we do not have to hard code these features, but just feed it examples and it will itself learn and recognize it.\n\n\n\nFigure : Layer 3\n\n\n\n\n\nFigure : Layer 1\n\n\nThe deeper the NN gets, it finds and detects more deeper features.\nEach of these feature detectors helps NN in understanding an image.\nClearly, trying to hard code would be very difficult.\nWe shall learn ahead how NNs learn this.\nThis is the key difference as said."
+  },
+  {
+    "objectID": "lesson1.html#image-based-algorithms-go-beyond-images",
+    "href": "lesson1.html#image-based-algorithms-go-beyond-images",
+    "title": "Lesson 1",
+    "section": "Image Based Algorithms Go Beyond Images",
+    "text": "Image Based Algorithms Go Beyond Images\nA general theme can be set up for image based algorithms. But with creativity an image based recognizer can do thing beyond an image. For example:\n\nClassifying Sounds: A sound can be converted into a waveform which is an image and the model can be run on it to classify sounds with state of the art results. \nTime series: One of the students on the forum took a time series and converted it into a picture and used it in the image classifier. \nMotion-Movements: Another student created pictures of mouse-movements from users of a computer. The clicks became dots, the movements became lines, and the speed of the movement was captured in colour. \n\nHence, with creativity, anything non-image type if it can be converted into an image representation can be used in the image classifier model."
+  },
+  {
+    "objectID": "lesson1.html#myths-around-doing-deep-learning",
+    "href": "lesson1.html#myths-around-doing-deep-learning",
+    "title": "Lesson 1",
+    "section": "Myths Around Doing Deep Learning",
+    "text": "Myths Around Doing Deep Learning\nAs we saw, when we trained a real working bird classifier, we:\n\nDidn’t use any Math\nDidn’t use much data (just 400 images)\nDidn’t use expensive computers\n\nThis is generally the case for the vast majority of doing DL in real life.\nThere will be some Math that will pop up which will be taught as needed or will be referred to external resources.\nThe Myths are passed along by big companies to store lots of data\nMost extraordinary real world projects don’t need expensive computers or vast data.\nThere are many platforms on which one can do state of the art DL for free.\nOne of the key reasons for this is Transfer Learning, which shall come ahead. Most people do not know about TL.\n\n\n\nFigure : Common myths"
+  },
+  {
+    "objectID": "lesson1.html#pytorch-vs-tensorflow",
+    "href": "lesson1.html#pytorch-vs-tensorflow",
+    "title": "Lesson 1",
+    "section": "PyTorch VS TensorFlow",
+    "text": "PyTorch VS TensorFlow\nn this course, we will be using PyTorch.\nFolks who are way from the actual DL world would have heard of TensorFlow.\nTF is dying of its popularity in recent years, whereas PyTorch is growing rapidly.\nIn research repositories among the top papers, TF is a tiny minority compared to PyTorch.\nGreat research has come out of Ryan O’Connor who also discovered that the majority of researchers using Tf in 2018 have shifted to PyTorch.\nWhat people use in research is a very strong leading indicator of what is going to happen in the industry because it is in research all new papers and algorithms are written about. Once a new paper of high impact factor comes it will bring changes in the research community and it is always better to adapt accordingly. Usually, industry takes some time to adopt these changes, but it will happen soon.\nPyTorch was used very early on when it was released for this course because based on the technical fundamentals it was clear that it was far better.\nHence, PyTorch will be used for this course.\n\n\n\nFigure : PyTorch vs TF"
+  },
+  {
+    "objectID": "lesson1.html#pytorch-has-hairy-code",
+    "href": "lesson1.html#pytorch-has-hairy-code",
+    "title": "Lesson 1",
+    "section": "PyTorch Has Hairy Code",
+    "text": "PyTorch Has Hairy Code\nPyTorch has lengthy codes for relatively simple things.\nFollowing is a code for implementing and optimizer called Adam Optimizer in plain PyTorch taken from the PyTorch repository.\n\n\n\nFigure : An example of hairy code in PyTorch\n\n\nThe grey bit below does the exact same thing using the fast.ai library.\n\n\n\nFigure : fast.ai is better\n\n\nfast.ai is a library built by Jeremy and others on top of PyTorch.\nThis huge difference does not indicate that PyTorch is bad, but it reflects the strong foundations on which PyTorch is designed which can be used to build things on top of it, like fast.ai\nWhen we use the fast.ai library, we get access to all the power of PyTorch as well, but we shouldn’t be writing the former code when we can write the latter.\nThe problem with writing lots of code is there will be lots of things we can mistakes in, lots of things to not have best practices, lot of things to maintain\nIn general it is found that with DL less code is better.\nParticularly, with fast.ai, the code we don’t write is the code with the practices involved. Hence, using the codes, fast.ai provides, we will get better results.\nfast.ai library is very popular and is widely used in industry, academia, and teaching.\nAs we go with the course we will be seeing pure PyTorch as we go deeper and deeper to see how things work.\nIt won the 2020 best paper award and and hence is well regarded\n\n\n\nFigure : fast.ai best paper award"
+  },
+  {
+    "objectID": "lesson1.html#jupyter-notebook",
+    "href": "lesson1.html#jupyter-notebook",
+    "title": "Lesson 1",
+    "section": "Jupyter Notebook",
+    "text": "Jupyter Notebook\nThe way Jeremy was able to run code snippets as slides was becuase of JNs.\nThis will be the environment in which we will be doing most of our computing for the course.\nIts a web based application which is popeular and widely used in industry academia and teaching.\nIts a powerful way to experiment explore and build.\nNow adays most people and students run JN not on the computer but on a cloud server.\nOn coursefastai we can see how to use.\nOne of the examples is on kaggle, which not only has competitions but also a cloud notebook server.\nwhen starting with our, just edit\nWhen starting with somones elses nb, it will show copy and edit.\nupvote before using to encourage folks\nthe first time we do this it sas session starting meaning its launching,\nwordls most powerful calculator, where we have all the capabilities of all the programming language at our disposal\ni hate clicking use keyboard shortcuts\nmarkdown pros\n! means bash shell command\nimages"
   },
   {
     "objectID": "movies.html",

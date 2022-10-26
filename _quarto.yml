@@ -28,6 +28,7 @@ website:
               contents:
                 - lesson0.qmd
                 - lesson1.qmd
+                - Untitled8.ipynb
             - text: "---"
             - section: "Text Book Notes"
               contents:

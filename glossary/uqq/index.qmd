@@ -1,0 +1,16 @@
+---
+title: "-Uqq"
+---
+* `U` stands for an upgrade. It upgrades all specified packages to the newest available version.
+* `q` stands for quiet. It hides certain messages and gives less output not polluting the coding environment with unnecessary outputs that occur during installation.
+* When installing a package, a process of [logging](https://www.notion.so/Logging-1861ed2d068e4c0ca331a9018e809015) happens usually in 3 steps and at each step, the corresponding logging message gets displayed as an output. These are:
+    1. WARNING messages
+    2. ERROR messages
+    3. CRITICAL messages
+* The `q` is used to suppress these messages (outputs) in an additive fashion as follows:
+    
+```
+-q:   hide WARNING messages
+-qq:  hide WARNING and ERROR messages
+-qqq: hide all messages
+```

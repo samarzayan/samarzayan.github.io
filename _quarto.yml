@@ -15,20 +15,21 @@ website:
         file: blog.qmd
       - text: "fast.ai"
         file: fast.ai.qmd
+      - text: "Resources"
+        file: resources.qmd
       - text: "About"
         file: about.qmd
   sidebar:
     - title: "fast.ai"
       style: "docked"
-      contents:
+      contents: 
         - fast.ai.qmd
         - section: "Practical Deep Learning For Coders"
           contents:
             - section: "Lesson Notes"
               contents:
                 - lesson0.qmd
-                - lesson1.qmd
-                - Untitled8.ipynb
+                - lesson_01.ipynb
             - text: "---"
             - section: "Text Book Notes"
               contents:
@@ -42,6 +43,11 @@ website:
             - live_coding_1.qmd
             - live_coding_2.qmd
         - text: "---"
+    - title: "Resources"
+      style: "docked"
+      contents:
+        - resources.qmd 
+        - technical_glossary.qmd
   page-navigation: true
   reader-mode: true
 format:

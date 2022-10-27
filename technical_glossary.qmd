@@ -1,0 +1,10 @@
+---
+title: "Technical Glossary"
+listing:
+  contents: glossary
+  type: table
+  sort: "title asc"
+---
+Following are the lists of all the technical terms I have encountered so far. 
+
+Based on my curiosity and requirement of understanding, I have put up the content. It can serve as a first hand guide.  

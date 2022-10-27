@@ -1,0 +1,10 @@
+---
+title: "pip"
+---
+* It stands for “Package Installer for Python”
+* Used for installing (and uninstalling) software packages
+* It connects to an online repository called Python Package Index (which has many public packages) searches for the required package in it and installs it on the system. This means that most of the public packages we download are exists in this repository PyPI. One can add their own packages to PyPI for users around the globe to use it.
+* Apart from the PyPI repository `pip` can also be configured to connect to other package repositories (local or remote), provided that they comply with [Python Enhancement Proposal](https://en.wikipedia.org/wiki/Python_Enhancement_Proposal)
+ 503.
+* `pip` is case-insensitive, i.e. one can type `PIP` or `PiP` or `piP` etc.
+* `pip install` is used as a separate command in the shell itself to install the required package. It is a shell command. Whereas `!pip install` can be used inside a program as a statement that installs the required package while executing the program in which it is used. The exclamation mark `!` must be put if we want to enter a shell command.

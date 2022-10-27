@@ -4,5 +4,12 @@
     "items": [
       "/posts/thuswrotesamar/index.html"
     ]
+  },
+  {
+    "listing": "/technical_glossary.html",
+    "items": [
+      "/glossary/uqq/index.html",
+      "/glossary/pip/index.html"
+    ]
   }
 ]

@@ -1,0 +1,1849 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.237">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Samar Zayan - Lesson 1</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./lesson0.html" rel="prev">
+<link href="./favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Samar Zayan</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./fast.ai.html" aria-current="page">
+ <span class="menu-text">fast.ai</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./resources.html">
+ <span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-reader-toggle nav-link" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Lesson 1</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fast.ai.html" class="sidebar-item-text sidebar-link">fast.ai</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Practical Deep Learning For Coders</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Lesson Notes</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lesson0.html" class="sidebar-item-text sidebar-link">Lesson 0</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lesson_01.html" class="sidebar-item-text sidebar-link active">Lesson 1</a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="px-0"><hr class="sidebar-divider hi "></li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Text Book Notes</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter1.html" class="sidebar-item-text sidebar-link">chapter1.html</a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="px-0"><hr class="sidebar-divider hi "></li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">Code Experiments</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./safedriving.html" class="sidebar-item-text sidebar-link">safedriving.html</a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">Live Coding</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./live_coding_1.html" class="sidebar-item-text sidebar-link">live_coding_1.html</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./live_coding_2.html" class="sidebar-item-text sidebar-link">live_coding_2.html</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#a-big-jump-since-2015" id="toc-a-big-jump-since-2015" class="nav-link" data-scroll-target="#a-big-jump-since-2015">A Big Jump Since 2015</a></li>
+  <li><a href="#is-it-a-bird" id="toc-is-it-a-bird" class="nav-link" data-scroll-target="#is-it-a-bird">Is It A Bird?</a></li>
+  <li><a href="#key-takeaway-from-the-model-we-ran" id="toc-key-takeaway-from-the-model-we-ran" class="nav-link" data-scroll-target="#key-takeaway-from-the-model-we-ran">Key Takeaway From The Model We Ran</a></li>
+  <li><a href="#deep-learning-the-current-world-around-us" id="toc-deep-learning-the-current-world-around-us" class="nav-link" data-scroll-target="#deep-learning-the-current-world-around-us">Deep Learning &amp; The Current World Around Us</a>
+  <ul class="collapse">
+  <li><a href="#deep-learning-art" id="toc-deep-learning-art" class="nav-link" data-scroll-target="#deep-learning-art">Deep Learning &amp; Art</a></li>
+  <li><a href="#deep-learing-language" id="toc-deep-learing-language" class="nav-link" data-scroll-target="#deep-learing-language">Deep Learing &amp; Language</a></li>
+  </ul></li>
+  <li><a href="#importance-of-ethics" id="toc-importance-of-ethics" class="nav-link" data-scroll-target="#importance-of-ethics">Importance Of Ethics</a></li>
+  <li><a href="#jeremys-explorations-in-education" id="toc-jeremys-explorations-in-education" class="nav-link" data-scroll-target="#jeremys-explorations-in-education">Jeremy’s Explorations In Education</a></li>
+  <li><a href="#coloured-cups" id="toc-coloured-cups" class="nav-link" data-scroll-target="#coloured-cups">Coloured Cups</a>
+  <ul class="collapse">
+  <li><a href="#takeaway" id="toc-takeaway" class="nav-link" data-scroll-target="#takeaway">Takeaway</a></li>
+  </ul></li>
+  <li><a href="#a-very-different-approach-to-doing-fast.ai" id="toc-a-very-different-approach-to-doing-fast.ai" class="nav-link" data-scroll-target="#a-very-different-approach-to-doing-fast.ai">A Very Different Approach To Doing fast.ai</a></li>
+  <li><a href="#the-book" id="toc-the-book" class="nav-link" data-scroll-target="#the-book">The Book</a></li>
+  <li><a href="#about-jeremy" id="toc-about-jeremy" class="nav-link" data-scroll-target="#about-jeremy">About Jeremy</a></li>
+  <li><a href="#importance-of-the-course-in-the-industry" id="toc-importance-of-the-course-in-the-industry" class="nav-link" data-scroll-target="#importance-of-the-course-in-the-industry">Importance Of The Course In The Industry</a></li>
+  <li><a href="#comparison-between-learning-models-now-vs-back-then" id="toc-comparison-between-learning-models-now-vs-back-then" class="nav-link" data-scroll-target="#comparison-between-learning-models-now-vs-back-then">Comparison Between Learning Models Now VS Back Then</a>
+  <ul class="collapse">
+  <li><a href="#pathology" id="toc-pathology" class="nav-link" data-scroll-target="#pathology">Pathology</a></li>
+  <li><a href="#computational-pathology" id="toc-computational-pathology" class="nav-link" data-scroll-target="#computational-pathology">Computational Pathology:</a></li>
+  <li><a href="#he-images" id="toc-he-images" class="nav-link" data-scroll-target="#he-images">H&amp;E Images</a></li>
+  <li><a href="#the-story" id="toc-the-story" class="nav-link" data-scroll-target="#the-story">The Story</a></li>
+  </ul></li>
+  <li><a href="#how-dl-learns-features" id="toc-how-dl-learns-features" class="nav-link" data-scroll-target="#how-dl-learns-features">How DL Learns Features?</a></li>
+  <li><a href="#image-based-algorithms-go-beyond-images" id="toc-image-based-algorithms-go-beyond-images" class="nav-link" data-scroll-target="#image-based-algorithms-go-beyond-images">Image Based Algorithms Go Beyond Images</a></li>
+  <li><a href="#myths-around-doing-deep-learning" id="toc-myths-around-doing-deep-learning" class="nav-link" data-scroll-target="#myths-around-doing-deep-learning">Myths Around Doing Deep Learning</a></li>
+  <li><a href="#pytorch-vs-tensorflow" id="toc-pytorch-vs-tensorflow" class="nav-link" data-scroll-target="#pytorch-vs-tensorflow">PyTorch VS TensorFlow</a></li>
+  <li><a href="#pytorch-has-hairy-code" id="toc-pytorch-has-hairy-code" class="nav-link" data-scroll-target="#pytorch-has-hairy-code">PyTorch Has Hairy Code</a></li>
+  <li><a href="#jupyter-notebook" id="toc-jupyter-notebook" class="nav-link" data-scroll-target="#jupyter-notebook">Jupyter Notebook</a></li>
+  <li><a href="#kaggle" id="toc-kaggle" class="nav-link" data-scroll-target="#kaggle">Kaggle</a></li>
+  <li><a href="#is-it-a-bird-revisited" id="toc-is-it-a-bird-revisited" class="nav-link" data-scroll-target="#is-it-a-bird-revisited">Is It A Bird? Revisited</a>
+  <ul class="collapse">
+  <li><a href="#datablock" id="toc-datablock" class="nav-link" data-scroll-target="#datablock">DataBlock</a></li>
+  </ul></li>
+  <li><a href="#beyond-image-recognition---segmentation" id="toc-beyond-image-recognition---segmentation" class="nav-link" data-scroll-target="#beyond-image-recognition---segmentation">Beyond Image Recognition - Segmentation</a>
+  <ul class="collapse">
+  <li><a href="#what-is-it" id="toc-what-is-it" class="nav-link" data-scroll-target="#what-is-it">What Is It?</a></li>
+  <li><a href="#training-gives-accurate-results" id="toc-training-gives-accurate-results" class="nav-link" data-scroll-target="#training-gives-accurate-results">Training Gives Accurate Results</a></li>
+  <li><a href="#some-code-analysis" id="toc-some-code-analysis" class="nav-link" data-scroll-target="#some-code-analysis">Some Code Analysis</a></li>
+  </ul></li>
+  <li><a href="#beyond-image-recognition---tabular-analysis" id="toc-beyond-image-recognition---tabular-analysis" class="nav-link" data-scroll-target="#beyond-image-recognition---tabular-analysis">Beyond Image Recognition - Tabular Analysis</a>
+  <ul class="collapse">
+  <li><a href="#what-is-it-1" id="toc-what-is-it-1" class="nav-link" data-scroll-target="#what-is-it-1">What Is It?</a></li>
+  <li><a href="#some-code-analysis-1" id="toc-some-code-analysis-1" class="nav-link" data-scroll-target="#some-code-analysis-1">Some Code Analysis</a></li>
+  </ul></li>
+  <li><a href="#beyond-image-recognition---collaborative-filtering" id="toc-beyond-image-recognition---collaborative-filtering" class="nav-link" data-scroll-target="#beyond-image-recognition---collaborative-filtering">Beyond Image Recognition - Collaborative Filtering</a>
+  <ul class="collapse">
+  <li><a href="#what-is-it-2" id="toc-what-is-it-2" class="nav-link" data-scroll-target="#what-is-it-2">What Is It?</a></li>
+  <li><a href="#some-code-analysis-2" id="toc-some-code-analysis-2" class="nav-link" data-scroll-target="#some-code-analysis-2">Some Code Analysis</a></li>
+  </ul></li>
+  <li><a href="#what-jeremy-makes-with-jupyter-nbs" id="toc-what-jeremy-makes-with-jupyter-nbs" class="nav-link" data-scroll-target="#what-jeremy-makes-with-jupyter-nbs">What Jeremy Makes With Jupyter NBs</a></li>
+  <li><a href="#what-can-dl-do-at-present" id="toc-what-can-dl-do-at-present" class="nav-link" data-scroll-target="#what-can-dl-do-at-present">What Can DL Do At Present?</a></li>
+  <li><a href="#a-quick-history-of-dl" id="toc-a-quick-history-of-dl" class="nav-link" data-scroll-target="#a-quick-history-of-dl">A Quick History Of DL</a></li>
+  <li><a href="#high-level-overview-of-models" id="toc-high-level-overview-of-models" class="nav-link" data-scroll-target="#high-level-overview-of-models">High Level Overview Of Models</a></li>
+  <li><a href="#learner-backgrounds" id="toc-learner-backgrounds" class="nav-link" data-scroll-target="#learner-backgrounds">Learner Backgrounds</a></li>
+  <li><a href="#hwthings-to-do-before-moving-to-lesson-2" id="toc-hwthings-to-do-before-moving-to-lesson-2" class="nav-link" data-scroll-target="#hwthings-to-do-before-moving-to-lesson-2">HW/Things To Do Before Moving To Lesson 2</a>
+  <ul class="collapse">
+  <li><a href="#experiment" id="toc-experiment" class="nav-link" data-scroll-target="#experiment">1. Experiment!</a></li>
+  <li><a href="#read-chapter-1-of-the-textbook" id="toc-read-chapter-1-of-the-textbook" class="nav-link" data-scroll-target="#read-chapter-1-of-the-textbook">2. Read chapter 1 of the textbook</a></li>
+  <li><a href="#share-your-work" id="toc-share-your-work" class="nav-link" data-scroll-target="#share-your-work">3. Share Your Work</a></li>
+  <li><a href="#have-a-look-at-the-quiz-questions" id="toc-have-a-look-at-the-quiz-questions" class="nav-link" data-scroll-target="#have-a-look-at-the-quiz-questions">4. Have A Look At The Quiz Questions</a></li>
+  </ul></li>
+  <li><a href="#glimspes-of-other-students-work" id="toc-glimspes-of-other-students-work" class="nav-link" data-scroll-target="#glimspes-of-other-students-work">Glimspes Of Other Student’s Work</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Lesson 1</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="quarto-video ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/8SF_h3xF3cE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<hr>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Welcome to Practical Deep Learning For Coders!</p>
+<p>This is the fifth version of the course.</p>
+<p>It’s the first new one that has been done in 2 years since the previous version in 2020 and a lot of cool new things have come up along the way to cover.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/practical_deep_learning_for_coders_2022.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>fast.ai 2022</em></figcaption><p></p>
+</figure>
+</div>
+<hr>
+</section>
+<section id="a-big-jump-since-2015" class="level2">
+<h2 class="anchored" data-anchor-id="a-big-jump-since-2015">A Big Jump Since 2015</h2>
+<p>It is amazing how much things have changed.</p>
+<p>Below is an <a href="https://xkcd.com/">xkcd</a> (highly popular among most coders and alike) comic from the end of 2015 which depicts the situation back then.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/xkcd_joke.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>An xkcd joke</em></figcaption><p></p>
+</figure>
+</div>
+<p>It can be hard to tell what’s easy and what’s impossible in computing.</p>
+<p>In 2015 it was nearly impossible to create a code that can check if an image is of a bird or not! So impossible that it became the idea of a joke.</p>
+<p>Now in 2022, we can pull it off for free in under 2 minutes.</p>
+<hr>
+</section>
+<section id="is-it-a-bird" class="level2">
+<h2 class="anchored" data-anchor-id="is-it-a-bird">Is It A Bird?</h2>
+<p>The following Python code does it for us.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Below we run the code very quickly without discussing the nitty-gritty details of the code. We shall come back to it later as we go along.</p>
+</div>
+</div>
+<div class="cell" data-outputid="0d89f983-51c2-4c67-b159-99ba1fca4007" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install <span class="op">-</span>Uqq fastbook duckduckgo_search</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     |████████████████████████████████| 719 kB 15.9 MB/s 
+     |████████████████████████████████| 5.3 MB 64.1 MB/s 
+     |████████████████████████████████| 1.3 MB 54.5 MB/s 
+     |████████████████████████████████| 441 kB 73.1 MB/s 
+     |████████████████████████████████| 1.6 MB 55.1 MB/s 
+     |████████████████████████████████| 62 kB 1.6 MB/s 
+     |████████████████████████████████| 96 kB 7.3 MB/s 
+     |████████████████████████████████| 212 kB 62.9 MB/s 
+     |████████████████████████████████| 115 kB 73.9 MB/s 
+     |████████████████████████████████| 163 kB 77.0 MB/s 
+     |████████████████████████████████| 127 kB 74.0 MB/s 
+     |████████████████████████████████| 115 kB 76.5 MB/s 
+     |████████████████████████████████| 7.6 MB 67.3 MB/s 
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+flask 1.1.4 requires click&lt;8.0,&gt;=5.1, but you have click 8.1.3 which is incompatible.</code></pre>
+</div>
+</div>
+<p>Whenever using a cloud platform like Colab or JNs in Kaggle, it is a good practice to have this cell at the top. Running the above cell makes sure that the most recent version of any library/software is used. Older versions can run into some problems of not running smoothly and cause trivial errors.</p>
+<p>More info on <code>pip</code> and <code>-Uqq</code> <a href="./technical_glossary.html">here</a>.</p>
+<div class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> fastbook <span class="im">import</span> <span class="op">*</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>We import all the libraries from <code>fastbook</code> using <code>import</code>.</p>
+<div class="cell" data-outputid="36e2a9af-4803-4d92-f88b-039b2ac39c03" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>urls <span class="op">=</span> search_images_ddg(<span class="st">'bird photos'</span>, max_images<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(urls), urls[<span class="dv">0</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="3">
+<pre><code>(1,
+ 'http://www.saga.co.uk/contentlibrary/saga/publishing/verticals/home-and-garden/gardening/garden-wildlife/galleries/exotic-birds/hoopoe.jpg')</code></pre>
+</div>
+</div>
+<p>Here we are searching in DuckDuckGo for images of birds and grabbing one of them. The URLs are stored in the variable <code>urls</code>.</p>
+<p>The number of URLs(which is just <code>1</code>) and the URL of the first image that we grabbed is outputted.</p>
+<div class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>dest <span class="op">=</span> Path(<span class="st">'bird.jpg'</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="kw">not</span> dest.exists(): download_url(urls[<span class="dv">0</span>], dest, show_progress <span class="op">=</span> <span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-outputid="bdd23e2f-f0cf-4ba7-8eef-9a8e72847a66" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>im <span class="op">=</span> Image.<span class="bu">open</span>(dest)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>im.to_thumb(<span class="dv">256</span>, <span class="dv">256</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="5">
+<p><img src="lesson_01_files/figure-html/cell-6-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<p>We download the image.</p>
+<p>So, the above script is something that can download images of birds (or anything for that matter) from the internet.</p>
+<p>Our goal is to build a system that can recognize images that are birds or not birds. Computers or models need numbers as inputs to work with. Luckily images are indeed made of numbers.</p>
+<p><a href="https://pixspy.com/">PixSpy</a> is an online viewer which helps us see these numbers in an image.</p>
+<p>What we recognize as a bird photo is basically a set of pixels with RGB values.</p>
+<div class="cell" data-execution_count="6">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>searches <span class="op">=</span> <span class="st">'forest'</span>,<span class="st">'bird'</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>path <span class="op">=</span> Path(<span class="st">'bird_or_not'</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="kw">not</span> path.exists():</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> o <span class="kw">in</span> searches:</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>        dest <span class="op">=</span> (path<span class="op">/</span>o)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>        dest.mkdir(exist_ok<span class="op">=</span><span class="va">True</span>, parents <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>        results <span class="op">=</span> search_images_ddg(<span class="ss">f'</span><span class="sc">{</span>o<span class="sc">}</span><span class="ss"> photo'</span>)</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>        download_images(dest, urls<span class="op">=</span>results[:<span class="dv">200</span>])</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>        resize_images(dest, max_size<span class="op">=</span><span class="dv">400</span>, dest<span class="op">=</span>dest)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>To train our model, we need images of birds and “non-birds”, but DuckDuckGo or Google doesn’t show images of “non-birds”. So, we went with something like images of forests.</p>
+<p>In the searches, we went and searched for forest images and bird images, and then downloaded and resized them, about 200 of them each.</p>
+<p>We are resizing it to small pixels because computers take a large amount of time to just open an image that is larger in size.</p>
+<div class="cell" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>failed <span class="op">=</span> verify_images(get_image_files(path))</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>failed.<span class="bu">map</span>(Path.unlink)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>When we download images we often get a few broken ones.</p>
+<p>A model does not work successfully with broken images.</p>
+<p>The above piece of code finds and veriefies these broken images and unlinks them.</p>
+<div class="cell" data-outputid="87be03d1-adff-4478-d8db-3a99ef4af6ec" data-execution_count="8">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>dls <span class="op">=</span> DataBlock(</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    blocks<span class="op">=</span>(ImageBlock, CategoryBlock), </span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    get_items<span class="op">=</span>get_image_files, </span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    splitter<span class="op">=</span>RandomSplitter(valid_pct<span class="op">=</span><span class="fl">0.2</span>, seed<span class="op">=</span><span class="dv">42</span>),</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    get_y<span class="op">=</span>parent_label,</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    item_tfms<span class="op">=</span>[Resize(<span class="dv">192</span>, method<span class="op">=</span><span class="st">'squish'</span>)]</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>).dataloaders(path, bs<span class="op">=</span><span class="dv">32</span>)</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>dls.show_batch(max_n<span class="op">=</span><span class="dv">6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="lesson_01_files/figure-html/cell-9-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<p>Now, we create what is called a data block.</p>
+<p>Data block gives fast.ai library all the information of an image that it needs to create a computer vision model. It gets all the image files that we downloaded and shows us some, let us say 6. We can easily check the data with this.</p>
+<p>So now we have downloaded 200 images of birds and forests each and have checked them.</p>
+<div class="cell" data-outputid="c6eef6af-909f-46f1-9540-a80b7efecbeb" data-execution_count="9">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>learn <span class="op">=</span> cnn_learner(dls, resnet18, metrics<span class="op">=</span>error_rate)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>learn.fine_tune(<span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>/usr/local/lib/python3.7/dist-packages/fastai/vision/learner.py:284: UserWarning: `cnn_learner` has been renamed to `vision_learner` -- please update your code
+  warn("`cnn_learner` has been renamed to `vision_learner` -- please update your code")
+/usr/local/lib/python3.7/dist-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  f"The parameter '{pretrained_param}' is deprecated since 0.13 and will be removed in 0.15, "
+/usr/local/lib/python3.7/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<script type="application/vnd.jupyter.widget-view+json">
+{"version_major":2,"version_minor":0,"model_id":"0113ee998f80437287cccaaebbf38918"}
+</script>
+</div>
+<div class="cell-output cell-output-display">
+
+<style>
+    /* Turns off some styling */
+    progress {
+        /* gets rid of default border in Firefox and Opera. */
+        border: none;
+        /* Needs to be in here for Safari polyfill so background images work as expected. */
+        background-size: auto;
+    }
+    progress:not([value]), progress:not([value])::-webkit-progress-bar {
+        background: repeating-linear-gradient(45deg, #7e7e7e, #7e7e7e 10px, #5c5c5c 10px, #5c5c5c 20px);
+    }
+    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
+        background: #F44336;
+    }
+</style>
+</div>
+<div class="cell-output cell-output-display">
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th>epoch</th>
+      <th>train_loss</th>
+      <th>valid_loss</th>
+      <th>error_rate</th>
+      <th>time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0.399772</td>
+      <td>0.099666</td>
+      <td>0.026316</td>
+      <td>00:09</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="cell-output cell-output-display">
+
+<style>
+    /* Turns off some styling */
+    progress {
+        /* gets rid of default border in Firefox and Opera. */
+        border: none;
+        /* Needs to be in here for Safari polyfill so background images work as expected. */
+        background-size: auto;
+    }
+    progress:not([value]), progress:not([value])::-webkit-progress-bar {
+        background: repeating-linear-gradient(45deg, #7e7e7e, #7e7e7e 10px, #5c5c5c 10px, #5c5c5c 20px);
+    }
+    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
+        background: #F44336;
+    }
+</style>
+</div>
+<div class="cell-output cell-output-display">
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th>epoch</th>
+      <th>train_loss</th>
+      <th>valid_loss</th>
+      <th>error_rate</th>
+      <th>time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0.040566</td>
+      <td>0.008731</td>
+      <td>0.000000</td>
+      <td>00:02</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0.028078</td>
+      <td>0.019985</td>
+      <td>0.013158</td>
+      <td>00:02</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>0.025392</td>
+      <td>0.014752</td>
+      <td>0.013158</td>
+      <td>00:02</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<p>Here, the model learns it. This now runs through every photo from the 400 photos and learns about how a bird or a forest looks like.</p>
+<p>Overall it took under 30 s which was enough to finish doing what we saw in the comic.</p>
+<div class="cell" data-outputid="eceadc8a-b379-400d-e690-eb1652955bd6" data-execution_count="10">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>is_bird,_,probs <span class="op">=</span> learn.predict(PILImage.create(<span class="st">'bird.jpg'</span>))</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"This is a: </span><span class="sc">{</span>is_bird<span class="sc">}</span><span class="ss">."</span>)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Probability it's a bird: </span><span class="sc">{</span>probs[<span class="dv">0</span>]<span class="sc">:.4f}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+
+<style>
+    /* Turns off some styling */
+    progress {
+        /* gets rid of default border in Firefox and Opera. */
+        border: none;
+        /* Needs to be in here for Safari polyfill so background images work as expected. */
+        background-size: auto;
+    }
+    progress:not([value]), progress:not([value])::-webkit-progress-bar {
+        background: repeating-linear-gradient(45deg, #7e7e7e, #7e7e7e 10px, #5c5c5c 10px, #5c5c5c 20px);
+    }
+    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
+        background: #F44336;
+    }
+</style>
+</div>
+<div class="cell-output cell-output-display">
+
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>This is a: bird.
+Probability it's a bird: 0.9999</code></pre>
+</div>
+</div>
+<p>By passing in our own image, we can check if an image is a bird or not with the probability rounded to the nearest to 4 decimal places. Here we have passed the first image of bird we downloaded at the beginning.</p>
+<p>Hence, something extraordinary has happened since 2015, something which was considered nearly impossible. What was once a joke, can now be done on our laptop in under 2 minutes.</p>
+<hr>
+</section>
+<section id="key-takeaway-from-the-model-we-ran" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaway-from-the-model-we-ran">Key Takeaway From The Model We Ran</h2>
+<p>Clearly, creating real-world deep learning working codes does not require:</p>
+<ul>
+<li>Much Code</li>
+<li>Much Math</li>
+<li>Much Time</li>
+<li>Much Data</li>
+<li>Expensive Computers</li>
+</ul>
+<p>Hence, doing DL is pretty much accessible to everyone.</p>
+<hr>
+</section>
+<section id="deep-learning-the-current-world-around-us" class="level2">
+<h2 class="anchored" data-anchor-id="deep-learning-the-current-world-around-us">Deep Learning &amp; The Current World Around Us</h2>
+<p>DL is evolving rapidly, thereby giving rise to various new stuff. Following are some recent developments that came about a few weeks before the start of this course.</p>
+<section id="deep-learning-art" class="level3">
+<h3 class="anchored" data-anchor-id="deep-learning-art">Deep Learning &amp; Art</h3>
+<ul>
+<li><a href="https://openai.com/dall-e-2/">DALL.E 2</a>, is an AI that can create real artistic images based on the descriptions we give it. <img src="images/lesson_1/dl_art_illustration_1.png" class="img-fluid" alt="DALL.E 2 Illustrations from twitter"> <img src="images/lesson_1/dl_art_illustration_2.png" class="img-fluid" alt="DALL.E 2 Illustrations from twitter"></li>
+<li><a href="https://www.midjourney.com/home/">Midjourney</a>, is another similar platform. <img src="images/lesson_1/dl_art_illustration_3.png" class="img-fluid" alt="Midjourney Illustrations from twitter"></li>
+<li>Self motivated artists use DL to create their own art working on a project for months. <img src="images/lesson_1/dl_art_illustration_4.png" class="img-fluid" alt="Midjourney Illustrations from twitter"></li>
+</ul>
+<p>Many <a href="fast.ai">fast.ai</a> alums having a background in art have went on to create wonderful arts using DL.</p>
+</section>
+<section id="deep-learing-language" class="level3">
+<h3 class="anchored" data-anchor-id="deep-learing-language">Deep Learing &amp; Language</h3>
+<ul>
+<li><a href="https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html">Pathways Language Model (PaLM)</a> from Google can take an English text/question as an input and return its output an answer with the explanation or “thinking”. The diversity is vast ranging from Math problems to explaining jokes and beyond. <img src="images/lesson_1/palm.png" class="img-fluid" alt="PaLM"></li>
+</ul>
+<p>In short, DL is doing a lot that we would have considered impossible otherwise.</p>
+<hr>
+</section>
+</section>
+<section id="importance-of-ethics" class="level2">
+<h2 class="anchored" data-anchor-id="importance-of-ethics">Importance Of Ethics</h2>
+<p>An important aspect to keep in consideration when venturing into solving and doing these cool things is Ethics. This will be touched upon in the course, but there is a full ethics course called <a href="https://ethics.fast.ai/">Practical Data Ethics</a> taught by Dr.&nbsp;Rachel Thomas, the co-founder of <a href="fast.ai">fast.ai</a> that covers things in detail.</p>
+<hr>
+</section>
+<section id="jeremys-explorations-in-education" class="level2">
+<h2 class="anchored" data-anchor-id="jeremys-explorations-in-education">Jeremy’s Explorations In Education</h2>
+<p>Apart from being an AI Researcher, Jeremy is a homeschooling primary school teacher. This has led him to study education and bring the best education practices into his classrooms.</p>
+<hr>
+</section>
+<section id="coloured-cups" class="level2">
+<h2 class="anchored" data-anchor-id="coloured-cups">Coloured Cups</h2>
+<p>One of these practices is the <em>Coloured Cups</em> practice taken from an educator <a href="https://www.dylanwiliam.org/Dylan_Wiliams_website/Welcome.html">Dylan Wiliam</a> which is an effective way for a teacher to get an idea of the classroom’s understanding of the lesson or a topic as it is being taught.</p>
+<p>The idea is simple! All the students in the classrooms have 3 cups, a green cup, a yellow cup, and a red cup each reflecting various levels of understanding. Green means the student is understanding well, yellow means s/he is not quite sure what is going on, and red means the student has no idea of what is going on. As the lesson is being taught, the students put a cup on their desks and the teacher can see the classroom to get a sense of how the students are following along.</p>
+<p>For this course, a <a href="https://cups.fast.ai/fast">virtual setup</a> was made and Jeremy could see it from his end on the <a href="https://cups.fast.ai/fast/teacher">teacher version</a>.</p>
+<p>The above site was made by Radek one evening, one of the top Fast.ai alums and TA for the course. More about him covered in <a href="./lesson0.html">Lesson 0</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/colored_cups_fastai.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>fast.ai version of the “Colored Cups”</em></figcaption><p></p>
+</figure>
+</div>
+<section id="takeaway" class="level3">
+<h3 class="anchored" data-anchor-id="takeaway">Takeaway</h3>
+<p>As a learner, it is quite helpful to be self-aware of our situation. Hence, when taking the course independently, we can constantly ask ourselves how we are on the level of understanding.</p>
+<p>When we are at red the level, it is better to approach the forums and ask questions.</p>
+<hr>
+</section>
+</section>
+<section id="a-very-different-approach-to-doing-fast.ai" class="level2">
+<h2 class="anchored" data-anchor-id="a-very-different-approach-to-doing-fast.ai">A Very Different Approach To Doing fast.ai</h2>
+<p>We began this course, by jumping right in by running a model. We did not do an in-depth review of Linear Algebra and Calculus.</p>
+<p>This way of teaching is influenced by Jeremy’s two of the favourite educators <a href="https://www.dylanwiliam.org/Dylan_Wiliams_website/Welcome.html">Dylan Wiliam</a> and Paul Lockhart (and many others), who claim that learning with a context at hand makes it much better for the learner to learn.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/education_philosophies.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Education/learning resources</em></figcaption><p></p>
+</figure>
+</div>
+<p>The way we learn math at school in a very dull way is first we learn counting, then adding, then decimals, blah blah blah and 15 years later in grad-school we do the actual cool stuff. This is not the way most people learn effectively.</p>
+<p>The best way to learn is the way we learn sports. We jump right in on the ground and start playing it instead of sitting in a classroom and studying the physics of the sport.</p>
+<p>Do not worry though, we will go in-depth as we progress as the most sophisticated technically detailed class out there. but first, we focus on building and deploying models. we will learn why and how things work later.</p>
+<p>Folks having a technical background might find it difficult to cope with this style.</p>
+<p>There will be a lot of tricks and cool learning philosophies that will be embedded and scattered throughout this course, sometimes it will be called out by Jeremy sometimes it won’t but it will be there.</p>
+<hr>
+</section>
+<section id="the-book" class="level2">
+<h2 class="anchored" data-anchor-id="the-book">The Book</h2>
+<p>The course is closely based on the textbook written by Jeremy and Sylvain titled <em>Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD.</em></p>
+<p>The course will not use any materials from the book directly which might come as a surprise as we read, but the reason is that important educational research literature claims that learners learn best when the same thing is expressed in multiple different ways. The book will have the same information presented in a different way.</p>
+<p>One of the bits of the HW is to read the corresponding chapter of the book.</p>
+<p>A lot of people love the book</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/textbook.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>fast.ai textbook</em></figcaption><p></p>
+</figure>
+</div>
+<hr>
+</section>
+<section id="about-jeremy" class="level2">
+<h2 class="anchored" data-anchor-id="about-jeremy">About Jeremy</h2>
+<p>Spent 30 years of his life working around DL &amp; ML.</p>
+<p>He built multiple companies centered around DL.</p>
+<p>He is the highest-ranked competitor on Kaggle.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/about_jeremy.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>About Jeremy</em></figcaption><p></p>
+</figure>
+</div>
+<p>One of his companies Enlitic was the first company to specialize in DL for medicine.</p>
+<p>It made it to the top 20 smartest companies in 2016 by MIT Technology Review.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/enlitic.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Enlitic featured in MIT Tech Review</em></figcaption><p></p>
+</figure>
+</div>
+<p>He started <a href="http://fast.ai">fast.ai</a> along with Rachel Thomas a few years ago and it had a big impact in the world already.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/fastai_in_news.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>fast.ai media coverage</em></figcaption><p></p>
+</figure>
+</div>
+<p>Apart from the company’s success, along with the students they have had global recognitions for multiple projects and competitions.</p>
+<p>One of them is their win in the DAWNBench competition, in which they demonstrated how they can train big neural networks, faster and cheaper than anybody in the world. That was a very big step in 2018.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/fastai_vs_google.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>fast.ai creating a record breaking model</em></figcaption><p></p>
+</figure>
+</div>
+<p>Sooner the work made a big difference. Google and NVIDIA started using their approaches and methods to optimise many of their projects.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/fastai_at_nvidia.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>fast.ai used at NVIDIA</em></figcaption><p></p>
+</figure>
+</div>
+<p>He is the inventor of the ULMFIT algorithm, which according to the <book> was one of the two key foundations behind the modern NLP revolution.</book></p>
+<p>Interestingly, the ULMFIT model did not appear in the journal first, but in the 2016 <a href="http://fast.ai">fast.ai</a> course in lesson 4 and was later developed into a paper.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/jeremy_featured_in_textbook.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Jeremy featured in an NLP textbook</em></figcaption><p></p>
+</figure>
+</div>
+<p>Since, the first year of teaching the course it got noticed by HBR</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/fastai_hbr.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>fast.ai in HBR</em></figcaption><p></p>
+</figure>
+</div>
+<p>And the course is loved by most of them on YouTube.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/youtube.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Lecture YouTube analytics</em></figcaption><p></p>
+</figure>
+</div>
+<p>Many alumni went on to do great things.</p>
+<hr>
+</section>
+<section id="importance-of-the-course-in-the-industry" class="level2">
+<h2 class="anchored" data-anchor-id="importance-of-the-course-in-the-industry">Importance Of The Course In The Industry</h2>
+<p>The course is widely used in industry and research with a lot of success.</p>
+<p><a href="https://karpathy.ai/">Andrej Karpathy</a> said that everybody who joins the Tesla AI team are required to do this course.</p>
+<p>In OpenAI all the residents joining are required to do this course.</p>
+<hr>
+</section>
+<section id="comparison-between-learning-models-now-vs-back-then" class="level2">
+<h2 class="anchored" data-anchor-id="comparison-between-learning-models-now-vs-back-then">Comparison Between Learning Models Now VS Back Then</h2>
+<p>A surprising question to ask is how was our model able to tell if an image is of a bird or not. Why wasn’t it able to do earlier?</p>
+<p>Let us explore how image recognition was done in 2012, but before that, it is important to understand a few important terms.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This was not discussed in the lcture, I did a little digging to better understand what was going on and put my learnings here.</p>
+</div>
+</div>
+<section id="pathology" class="level3">
+<h3 class="anchored" data-anchor-id="pathology">Pathology</h3>
+<p>A field or a branch of medicine, that deals with studying human tissue for the diagnosis of diseases.</p>
+<p>Pathologists basically take samples of the human specimen and study it under microscopes to diagnose some disease, be it cancer, etc.</p>
+</section>
+<section id="computational-pathology" class="level3">
+<h3 class="anchored" data-anchor-id="computational-pathology">Computational Pathology:</h3>
+<p>Using computer techniques in the process of pathology, i.e., using coding/ML/DL in order to study human tissues and predict the diagnosis of a disease.</p>
+</section>
+<section id="he-images" class="level3">
+<h3 class="anchored" data-anchor-id="he-images">H&amp;E Images</h3>
+<p>When a pathologist studies a cell under a microscope, it is easier for him/her to see it clearly, when the cell is stained with some dye.</p>
+<p>A dye is a substance that gives colour to the substrate (to which it is applied to), for distinguishing purposes without chemically bonding with the substrate. Pigments on the other hand chemically bond with the substrate changing its molecular structure.</p>
+<p>In medicine, the staining is done mostly by two dyes- hematoxylin and eosin.</p>
+<p>Hematoxylin shows the ribosomes, chromatin (genetic material) within the nucleus, and other structures in a deep blue-purple colour.</p>
+<p>Eosin shows the cytoplasm, collagen, connective tissue, and other structures that surround and support the cell as an orange-pink-red colour.</p>
+<p>Hence, staining with hematoxylin and eosin (referred to as H &amp; E staining) helps identify different types of cells and tissues and provides important information about the pattern, shape, and structure of cells in a tissue sample. It is used to help diagnose diseases, such as cancer.</p>
+<p>The images or samples collected after the staining are called H&amp;E images.</p>
+<p>To summarize H &amp; E images are images of various cells which are stained with two dyes- hematoxylin and eosin, in order to study them for diagnosis of a disease.</p>
+<p>Now let us get started.</p>
+</section>
+<section id="the-story" class="level3">
+<h3 class="anchored" data-anchor-id="the-story">The Story</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/ml_back_then.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>ML back then</em></figcaption><p></p>
+</figure>
+</div>
+<p>In 2012, at Stanford, a diverse team of computational pathologists did a very successful and very famous project, which was exploring the 5-year survival chances of a cancer patient by looking at their histopathology slides.</p>
+<p>What they did back then was a classic Machine Learning approach.</p>
+<p>Jeremy spoke to the senior author of the project, <a href="https://g.co/kgs/1BjfLa">Daphne Koller</a>, and asked why they didn’t use Deep Learning. Apparently, at that time DL wasn’t on the radar. Hence, this was a pre-deep learning approach.</p>
+<p>One visible answer to how we are able to create a model for a bird recognizer is because of deep learning. The question then is, What is it exactly that is happening with DL, which could not happen with ML back then? Let us see!</p>
+<p>So the way they did this, was gathered around a group of experts from multi-disciplinary fields ranging from Mathematicians to Computer Scientists, to Pathologists, and so on, and worked on building and creating this idea for “features”, features they did not even know of to include in their approach for image recognition.</p>
+<p>There were thousands and thousands of these features. It took a lot of years, a lot of people, a lot of code, and a lot of math.</p>
+<p>Once they got sufficient features they fed it to an ML model, a logistic regression model in this case.</p>
+<p>Coming back to the question earlier, the difference between ML &amp; DL is that DL uses NNs, and NNs don’t require humans to define any features for it. NNs develop the features themselves as it learns. That was the big difference.</p>
+<hr>
+</section>
+</section>
+<section id="how-dl-learns-features" class="level2">
+<h2 class="anchored" data-anchor-id="how-dl-learns-features">How DL Learns Features?</h2>
+<p>In 2015, Matt Zeiler and Rob Fergus took a trained NN and looked inside it to see what it had learned about the features.</p>
+<p>But wait?! What do we mean by looking inside a NN? It means looking at the weights.</p>
+<p>So they looked at the weights inside and drew a picture of them. The following image shows the 9 sets of weights they found each representing a pattern in an image.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/layer_1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Layer 1</em></figcaption><p></p>
+</figure>
+</div>
+<p>Deep Learning is deep because it takes the previous features and combines it with other features to create and detect more advanced features.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/layer_2.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Layer 2</em></figcaption><p></p>
+</figure>
+</div>
+<p>So in neural networks we do not have to hard code these features, but just feed it examples and it will itself learn and recognize it.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/layer_3.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Layer 3</em></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/layer_4_5.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Layer 4 &amp; 5</em></figcaption><p></p>
+</figure>
+</div>
+<p>The deeper the NN gets, it finds and detects more deeper features.</p>
+<p>Each of these feature detectors helps NN in understanding an image.</p>
+<p>Clearly, trying to hard code would be very difficult.</p>
+<p>We shall learn ahead how NNs learn this.</p>
+<p>This is the key difference as said.</p>
+<hr>
+</section>
+<section id="image-based-algorithms-go-beyond-images" class="level2">
+<h2 class="anchored" data-anchor-id="image-based-algorithms-go-beyond-images">Image Based Algorithms Go Beyond Images</h2>
+<p>A general theme can be set up for image based algorithms. But with creativity an image based recognizer can do thing beyond an image. For example:</p>
+<ul>
+<li><p><strong>Classifying Sounds:</strong> A sound can be converted into a waveform which is an image and the model can be run on it to classify sounds with state of the art results. <img src="images/lesson_1/classifying_sounds.png" class="img-fluid" alt="Sound Classification Project done a previous student"></p></li>
+<li><p><strong>Time series:</strong> One of the students on the forum took a time series and converted it into a picture and used it in the image classifier. <img src="images/lesson_1/time_series.png" class="img-fluid" alt="Time Series Project done a previous student"></p></li>
+<li><p><strong>Motion-Movements:</strong> Another student created pictures of mouse-movements from users of a computer. The clicks became dots, the movements became lines, and the speed of the movement was captured in colour. <img src="images/lesson_1/motion_movements.png" class="img-fluid" alt="Motion Movements Project done a previous student"></p></li>
+</ul>
+<p>Hence, with creativity, anything non-image type if it can be converted into an image representation can be used in the image classifier model.</p>
+<hr>
+</section>
+<section id="myths-around-doing-deep-learning" class="level2">
+<h2 class="anchored" data-anchor-id="myths-around-doing-deep-learning">Myths Around Doing Deep Learning</h2>
+<p>As we saw, when we trained a real working bird classifier, we:</p>
+<ul>
+<li>Didn’t use any Math</li>
+<li>Didn’t use much data (just 400 images)</li>
+<li>Didn’t use expensive computers</li>
+</ul>
+<p>This is generally the case for the vast majority of doing DL in real life.</p>
+<p>There will be some Math that will pop up which will be taught as needed or will be referred to external resources.</p>
+<p>The Myths are passed along by big companies to store lots of data</p>
+<p>Most extraordinary real world projects don’t need expensive computers or vast data.</p>
+<p>There are many platforms on which one can do state of the art DL for free.</p>
+<p>One of the key reasons for this is Transfer Learning, which shall come ahead. Most people do not know about TL.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/myths.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Common myths in doing DL</em></figcaption><p></p>
+</figure>
+</div>
+<hr>
+</section>
+<section id="pytorch-vs-tensorflow" class="level2">
+<h2 class="anchored" data-anchor-id="pytorch-vs-tensorflow">PyTorch VS TensorFlow</h2>
+<p>In this course, we will be using PyTorch.</p>
+<p>Folks who are way from the actual DL world would have heard of TensorFlow.</p>
+<p>TF is dying of its popularity in recent years, whereas PyTorch is growing rapidly.</p>
+<p>In research repositories among the top papers, TF is a tiny minority compared to PyTorch.</p>
+<p>Great research has come out of Ryan O’Connor who also discovered that the majority of researchers using Tf in 2018 have shifted to PyTorch.</p>
+<p>What people use in research is a very strong leading indicator of what is going to happen in the industry because it is in research all new papers and algorithms are written about. Once a new paper of high impact factor comes it will bring changes in the research community and it is always better to adapt accordingly. Usually, industry takes some time to adopt these changes, but it will happen soon.</p>
+<p>PyTorch was used very early on when it was released for this course because based on the technical fundamentals it was clear that it was far better.</p>
+<p>Hence, PyTorch will be used for this course.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/ptvstf.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>PyTorch vs TF</em></figcaption><p></p>
+</figure>
+</div>
+<hr>
+</section>
+<section id="pytorch-has-hairy-code" class="level2">
+<h2 class="anchored" data-anchor-id="pytorch-has-hairy-code">PyTorch Has Hairy Code</h2>
+<p>PyTorch has lengthy codes for relatively simple things.</p>
+<p>Following is a code for implementing and optimizer called Adam Optimizer in plain PyTorch taken from the PyTorch repository.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/hairy.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>An example of hairy code in PyTorch</em></figcaption><p></p>
+</figure>
+</div>
+<p>The grey bit below does the exact same thing using the <a href="http://fast.ai">fast.ai</a> library.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/fastai_is_better.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>fast.ai is better</em></figcaption><p></p>
+</figure>
+</div>
+<p><a href="http://fast.ai">fast.ai</a> is a library built by Jeremy and others on top of PyTorch.</p>
+<p>This huge difference does not indicate that PyTorch is bad, but it reflects the strong foundations on which PyTorch is designed which can be used to build things on top of it, like fast.ai</p>
+<p>When we use the <a href="http://fast.ai">fast.ai</a> library, we get access to all the power of PyTorch as well, but we shouldn’t be writing the former code when we can write the latter.</p>
+<p>The problem with writing lots of code is there will be lots of things we can mistakes in, lots of things to not have best practices, lot of things to maintain</p>
+<p>In general it is found that with DL less code is better.</p>
+<p>Particularly, with <a href="http://fast.ai">fast.ai</a>, the code we don’t write is the code with the practices involved. Hence, using the codes, fast.ai provides, we will get better results.</p>
+<p><a href="http://fast.ai">fast.ai</a> library is very popular and is widely used in industry, academia, and teaching.</p>
+<p>As we go with the course we will be seeing pure PyTorch as we go deeper and deeper to see how things work.</p>
+<p>It won the 2020 best paper award and and hence is well regarded</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/fastai_award.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>fast.ai best paper award</em></figcaption><p></p>
+</figure>
+</div>
+<hr>
+</section>
+<section id="jupyter-notebook" class="level2">
+<h2 class="anchored" data-anchor-id="jupyter-notebook">Jupyter Notebook</h2>
+<p>The way Jeremy was able to run code snippets as slides was becuase of JNs but not powerpoint.</p>
+<p>He used an extension called <a href="https://rise.readthedocs.io/en/stable/">RISE</a> which allows to include code snippets into slides.</p>
+<p>This will be the environment in which we will be doing most of our computing for the course.</p>
+<p>Its a web based application which is popeular and widely used in industry academia and teaching.</p>
+<p>Its a powerful way to experiment, explore and build.</p>
+<hr>
+</section>
+<section id="kaggle" class="level2">
+<h2 class="anchored" data-anchor-id="kaggle">Kaggle</h2>
+<p>Now adays most people and students run JN not on the computer but on a cloud server.</p>
+<p>On <a href="https://course.fast.ai/Resources/kaggle.html">course.fast.ai</a> we can see various options and how to use them.</p>
+<p>One of the examples is <a href="https://www.kaggle.com/">Kaggle</a>, which not only has competitions but also a cloud notebook server with quite a lot of examples.</p>
+<p>When starting with our own NB, just <code>edit</code> it.</p>
+<p>When starting with somones elses NB, it will show <code>Copy and Edit</code>.</p>
+<p>Upvote before using others NBs to encourage them and let others know.</p>
+<p>the first time we do this it says <code>Session Starting</code> meaning its launching.</p>
+<p>It can be considered as the world’s most powerful calculator, where we have all the capabilities of all the programming language at our disposal</p>
+<p>There are two cells, Pros cell and Code cell. One can add pros along with the code which can be helpful in explaining the code to others and ourselves.</p>
+<p>Prose are written in markdown.</p>
+<p>One needs to verify his/her phone number in order to connect to the internet. Do the following before getting started on Kaggle.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/kaggle_phone.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Phone number verification on Kaggle</em></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/connect.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Connecting to the internet on Kaggle</em></figcaption><p></p>
+</figure>
+</div>
+<hr>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><code>!</code> at the start of a line is not Python, but it is a bash shell command.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="is-it-a-bird-revisited" class="level2">
+<h2 class="anchored" data-anchor-id="is-it-a-bird-revisited">Is It A Bird? Revisited</h2>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Here we discuss the code we ran earlier in detail. Note that some minor modifications are there here and there, but in an overall sense it is the same thing.</p>
+</div>
+</div>
+<p>People who are new to Python would be surprised that there is very little code. because of the following reasons:</p>
+<ul>
+<li>Python is a very concise language, (but not too concise). It has fewer boilerplate than other languages.</li>
+<li>Using the <a href="http://fast.ai">fast.ai</a> library makes a lot of things convenient for us.</li>
+</ul>
+<div class="cell" data-execution_count="11">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> duckduckgo_search <span class="im">import</span> ddg_images</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> fastcore.<span class="bu">all</span> <span class="im">import</span> <span class="op">*</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> search_images(term, max_images<span class="op">=</span><span class="dv">30</span>):</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Searching for '</span><span class="sc">{</span>term<span class="sc">}</span><span class="ss">'"</span>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> L(ddg_images(term, max_results<span class="op">=</span>max_images)).itemgot(<span class="st">'image'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-outputid="a524f4ee-8763-4c8f-a0d4-93386773ac44" data-execution_count="12">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>urls <span class="op">=</span> search_images(<span class="st">'bird photos'</span>, max_images<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>urls[<span class="dv">0</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Searching for 'bird photos'</code></pre>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="12">
+<pre><code>'https://www.highreshdwallpapers.com/wp-content/uploads/2014/05/Colourful-Flying-Bird.jpg'</code></pre>
+</div>
+</div>
+<div class="cell" data-outputid="ebd83616-c2a3-4183-df52-0aaf1d237e20" data-execution_count="13">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> fastdownload <span class="im">import</span> download_url</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>dest <span class="op">=</span> <span class="st">'bird.jpg'</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>download_url(urls[<span class="dv">0</span>], dest, show_progress<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> fastai.vision.<span class="bu">all</span> <span class="im">import</span> <span class="op">*</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>im <span class="op">=</span> Image.<span class="bu">open</span>(dest)</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>im.to_thumb(<span class="dv">256</span>,<span class="dv">256</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="13">
+<p><img src="lesson_01_files/figure-html/cell-14-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<p>Here we have downloaded and opened an image of a bird.</p>
+<p><a href="fast.ai">fast.ai</a> provides lots of libraries. They ususlly start with <code>fast&lt;something&gt;</code>. For example: * To make it easy to download URLs, <code>fastdownload</code> has <code>download_url</code>. * To make it easy to create a thumbnail, we have <code>im.to_thumb()</code>.</p>
+<div class="cell" data-outputid="a200165c-0422-4fba-db57-1e4c6218d490" data-execution_count="14">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>download_url(search_images(<span class="st">'forest photos'</span>, max_images<span class="op">=</span><span class="dv">1</span>)[<span class="dv">0</span>], <span class="st">'forest.jpg'</span>, show_progress<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>Image.<span class="bu">open</span>(<span class="st">'forest.jpg'</span>).to_thumb(<span class="dv">256</span>,<span class="dv">256</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Searching for 'forest photos'</code></pre>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="14">
+<p><img src="lesson_01_files/figure-html/cell-15-output-2.png" class="img-fluid"></p>
+</div>
+</div>
+<p>Here we have downloaded an image of a forest.</p>
+<p>Note that we are viewing the image once it is downloaded.</p>
+<p>Jeremy always likes to view the data at every step whenever he builds a model. This helps in making sure the data is reasonable. Once they look ok. We can download a bunch of them as follows:</p>
+<div class="cell" data-outputid="797d44a7-7736-4e1d-8161-f0d775efe2ab" data-execution_count="15">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>searches <span class="op">=</span> <span class="st">'forest'</span>,<span class="st">'bird'</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>path <span class="op">=</span> Path(<span class="st">'bird_or_not'</span>)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> time <span class="im">import</span> sleep</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> o <span class="kw">in</span> searches:</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>    dest <span class="op">=</span> (path<span class="op">/</span>o)</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>    dest.mkdir(exist_ok<span class="op">=</span><span class="va">True</span>, parents<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>    download_images(dest, urls<span class="op">=</span>search_images(<span class="ss">f'</span><span class="sc">{</span>o<span class="sc">}</span><span class="ss"> photo'</span>))</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>    sleep(<span class="dv">10</span>)  <span class="co"># Pause between searches to avoid over-loading server</span></span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>    download_images(dest, urls<span class="op">=</span>search_images(<span class="ss">f'</span><span class="sc">{</span>o<span class="sc">}</span><span class="ss"> sun photo'</span>))</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>    sleep(<span class="dv">10</span>)</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>    download_images(dest, urls<span class="op">=</span>search_images(<span class="ss">f'</span><span class="sc">{</span>o<span class="sc">}</span><span class="ss"> shade photo'</span>))</span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>    sleep(<span class="dv">10</span>)</span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a>    resize_images(path<span class="op">/</span>o, max_size<span class="op">=</span><span class="dv">400</span>, dest<span class="op">=</span>path<span class="op">/</span>o)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Searching for 'forest photo'
+Searching for 'forest sun photo'
+Searching for 'forest shade photo'
+Searching for 'bird photo'
+Searching for 'bird sun photo'
+Searching for 'bird shade photo'</code></pre>
+</div>
+</div>
+<p><a href="fast.ai">fast.ai</a> has <code>download_images</code>, where if we provide a bunch of URLs, it downloads them. It does this in parallel hence very quickly.</p>
+<p>We are using <code>resize_images</code> becuase of the following reasons: * In computer vision algorithms we generally don’t need particularly big images. Hence we are resizing it to maximum size of <code>400</code> which makes it much faster. * Since, GPUs are so quick, it can take a whole lot of time to just open an image compared to a NN.</p>
+<div class="cell" data-outputid="81d9f0f0-00af-459f-ea2d-23e6c9756ef6" data-execution_count="16">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>failed <span class="op">=</span> verify_images(get_image_files(path))</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>failed.<span class="bu">map</span>(Path.unlink)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(failed)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="16">
+<pre><code>0</code></pre>
+</div>
+</div>
+<p>The above cell finds broken images and deletes them from the dataset.</p>
+<p>Jeremy likes to use functional style of programming Python code because of the work he does. The use of <code>.map</code> above gives a sense of it.</p>
+<p>Developrs might be familiar with this.</p>
+<div class="cell" data-outputid="05a346b3-92ba-4c7e-a6db-0051c0a3ef2b" data-execution_count="17">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>dls <span class="op">=</span> DataBlock(</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>    blocks<span class="op">=</span>(ImageBlock, CategoryBlock), </span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>    get_items<span class="op">=</span>get_image_files, </span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>    splitter<span class="op">=</span>RandomSplitter(valid_pct<span class="op">=</span><span class="fl">0.2</span>, seed<span class="op">=</span><span class="dv">42</span>),</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>    get_y<span class="op">=</span>parent_label,</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>    item_tfms<span class="op">=</span>[Resize(<span class="dv">192</span>, method<span class="op">=</span><span class="st">'squish'</span>)]</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>).dataloaders(path, bs<span class="op">=</span><span class="dv">32</span>)</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>dls.show_batch(max_n<span class="op">=</span><span class="dv">6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="lesson_01_files/figure-html/cell-18-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<p><code>DataBlock</code> is the main thing in this complete model.</p>
+<p>This is the key thing we must get familiar with as deep learning practitioners at the start of our journey.</p>
+<p>The question to ask is simply, “How do I get my data in my model?”</p>
+<p>This might be a surprise for the ones thinking that we must spent time in understand neural network architectures, matrix multiplication, gradient, and stuff like that.</p>
+<p>The truth is very little of all that comes up in practice because at this point of time in the DL world, the community have found resonably small number of models that work for nearly all the main applications we need and <a href="fast.ai">fast.ai</a> will create the right type of model for us the vast majority of the time.</p>
+<p>We will evetually get to all that stuff about tweaking NN architectures in this course, but we will discover that it won’t be of much use in practice.</p>
+<p>This is kind of like a similar situation of a CS student, who in a CS course is exposed to the details of compilers and operating systems, but when s/he gets into the real world, none of that is useful.</p>
+<p>This course is <strong>Practical</strong> Deep Learning, hence we will focus on the practical part.</p>
+<p>So let us get started in discussing <code>DataBlock</code></p>
+<section id="datablock" class="level3">
+<h3 class="anchored" data-anchor-id="datablock">DataBlock</h3>
+<ul>
+<li><p>Key thing to know if we want to know how to use <em>different</em> kinds of datasets.</p></li>
+<li><p>We will be providing it with the following things:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/data_block.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>DataBlock</em></figcaption><p></p>
+</figure>
+</div></li>
+<li><p>When designing <code>DataBlock</code>, Jeremy and his team analysed all the things that changed from project to project to get the data into the right shape. They did this over hundreds of projects and came to realise that they can split it down into these 5 things.</p></li>
+</ul>
+<ol type="1">
+<li><code>blocks</code>: The first thing we tell fast.ai is</li>
+</ol>
+<ul>
+<li>“What kind of input we have?” There are lots of <code>Blocks</code> in fastai for various kinds of inputs. In our case we have our input as an image hence we are using <code>ImageBlock</code></li>
+<li>“What kind of output we have?” The output is a category, one of a number of possibilities. Hence, we use the <code>CategoryBlock</code>.</li>
+</ul>
+<p>This is enough for fast.ai to know what kind of model it needs to build for us.</p>
+<ol start="2" type="1">
+<li><p><code>get_items</code>: The next thing to mention is what are the items that the model will be looking at to train from. We are training from images. Hence, we use <code>get_image_files</code> which is a function we saw earlier. It returns a list of all image files in a path based on extension. So whenever the model needs to find what things to train from it uses this.</p></li>
+<li><p><code>splitter</code>: It is critical to put aside some data for testing the accuracy of the model. It is called a validation set. It is so crotical that fast.ai doesn’t allow us to train a model without a validation set. In this case, we <em>randomly</em> (<code>RandomSplitter</code>) ask to set aside 20% of the data.</p></li>
+<li><p><code>get_y</code>: The next question fast.ai asks is “How does it know the correct label of a photo?” i.e.&nbsp;how does the model know if a photo is of a bird or a forest. For that we use the <code>parent_folder</code>. It returns the parent folder of the path which was named as <code>bird</code> and <code>forest</code> by us. So that is where the model gets the labels from.</p></li>
+<li><p><code>item_tfms</code>: Finally, most computer vision architectures need all of the inputs as we train to be of the same size. <code>item_tfms</code> are all of bits of code that is going to run on every item, in this case images. We resize every one of them to being <code>192x192</code> pixels. There are two way to resize <code>crop</code> or <code>squish</code> we use <code>squish</code> it.</p></li>
+</ol>
+<p>This wraps up <code>DataBlock</code>.</p>
+<p>From there we create an important class called <code>dataloaders</code>. These are things PyTorch iterates through to grab bunch of our data at a time. The way it dess so fast is because its used GPUs which can do 1000s of things at a time, that means it needs 1000s of things to do. <code>dataloaders</code> feeds the training algorthim with a bunch of images at once, we call it a <code>batch</code> or a <code>mini_batch</code></p>
+<p>When we say <code>show_batch</code>, its a specific term in DL it means show an example of a batch of data that will be passed in the model.</p>
+<p>it tells us two things, the inputs and the label.</p>
+<p>Labels came by calling that <code>parent_folder</code> function.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Exploring the fast.ai documentation
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>When we come to building our own models, we would want to know the different kinds of splitters, label functions and so forth.</p>
+<p><a href="docs.fast.ai">This</a> is the best place to go, specially the “Tutorials” section within it.</p>
+<p>Start reading the documentation of something that you are familiar with.</p>
+</div>
+</div>
+<div class="cell" data-outputid="3400ce6d-03a1-434b-de5e-92fdfab01004" data-execution_count="18">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>learn <span class="op">=</span> vision_learner(dls, resnet18, metrics<span class="op">=</span>error_rate)</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>learn.fine_tune(<span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+
+<style>
+    /* Turns off some styling */
+    progress {
+        /* gets rid of default border in Firefox and Opera. */
+        border: none;
+        /* Needs to be in here for Safari polyfill so background images work as expected. */
+        background-size: auto;
+    }
+    progress:not([value]), progress:not([value])::-webkit-progress-bar {
+        background: repeating-linear-gradient(45deg, #7e7e7e, #7e7e7e 10px, #5c5c5c 10px, #5c5c5c 20px);
+    }
+    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
+        background: #F44336;
+    }
+</style>
+</div>
+<div class="cell-output cell-output-display">
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th>epoch</th>
+      <th>train_loss</th>
+      <th>valid_loss</th>
+      <th>error_rate</th>
+      <th>time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0.461070</td>
+      <td>0.107210</td>
+      <td>0.027523</td>
+      <td>00:02</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="cell-output cell-output-display">
+
+<style>
+    /* Turns off some styling */
+    progress {
+        /* gets rid of default border in Firefox and Opera. */
+        border: none;
+        /* Needs to be in here for Safari polyfill so background images work as expected. */
+        background-size: auto;
+    }
+    progress:not([value]), progress:not([value])::-webkit-progress-bar {
+        background: repeating-linear-gradient(45deg, #7e7e7e, #7e7e7e 10px, #5c5c5c 10px, #5c5c5c 20px);
+    }
+    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
+        background: #F44336;
+    }
+</style>
+</div>
+<div class="cell-output cell-output-display">
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th>epoch</th>
+      <th>train_loss</th>
+      <th>valid_loss</th>
+      <th>error_rate</th>
+      <th>time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0.036630</td>
+      <td>0.011480</td>
+      <td>0.000000</td>
+      <td>00:02</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0.020736</td>
+      <td>0.001620</td>
+      <td>0.000000</td>
+      <td>00:02</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>0.013398</td>
+      <td>0.000982</td>
+      <td>0.000000</td>
+      <td>00:02</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<p>Now we need a model.</p>
+<p>The critical concept in fast.ai is a learner.</p>
+<p>A learner is something which combines a model, the actual NN function we are training and the data we are using to train it with. Hence, we pass two things- a learner <code>resnet18</code> and and the data <code>dls</code> (which is the <code>DataBlocks</code> object.</p>
+<p>There is a relatively small number of learners that will work for the vast majority of things we do.</p>
+<p>If we pass in bare symbols like <code>resnet18</code>, it uses fast.ai’s built in models.</p>
+<p>Another cool thing is that a wonderful library is integrated in fast.ai’s library built by <a href="https://twitter.com/wightmanr">Ross Wightman</a> called <a href="https://timm.fast.ai/">timm</a>. It is the largest collection of computer vision models in the world. And at this point fast.ai is the first and only framework to integrate this.</p>
+<p><a href="https://rwightman.github.io/pytorch-image-models/results/">Here</a> is a comprehensive list of various models with its information.</p>
+<p>The model family called <code>resnet</code> will probably be fine for nearly any work we do, but we can use any thing from the above list.</p>
+<p>When we run the above cell, it runs pretty fastly, in under 2 minutes. The reason is that somebody has already trained the <code>resnet18</code> model to recognize over 1 million images of 1000 different types from the <a href="https://www.image-net.org/">ImageNet</a> dataset. After the training they made those weights/parameters available on the internet for anybody to download. By default on fast.ai when we use a model, it downloads those weights for us so that we don’t start with a NN which can’t do anything, but start with the one which can do a whole lot. Once we have this NN, a method called as <em>fine tuning</em> takes place which is unique to fast.ai. What it does it takes the pretrained weights that were downloaded by fast.ai and it adjusts them in a carefully controlled way to just teach the model the differences between our data set and what it was originally trained for. Hence the downloading happnes there.</p>
+<p>Reaching 100% accuracy.</p>
+<div class="cell" data-outputid="7f967905-b486-4e3d-85ac-da249e8601ed" data-execution_count="19">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>is_bird,_,probs <span class="op">=</span> learn.predict(PILImage.create(<span class="st">'bird.jpg'</span>))</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"This is a: </span><span class="sc">{</span>is_bird<span class="sc">}</span><span class="ss">."</span>)</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Probability it's a bird: </span><span class="sc">{</span>probs[<span class="dv">0</span>]<span class="sc">:.4f}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+
+<style>
+    /* Turns off some styling */
+    progress {
+        /* gets rid of default border in Firefox and Opera. */
+        border: none;
+        /* Needs to be in here for Safari polyfill so background images work as expected. */
+        background-size: auto;
+    }
+    progress:not([value]), progress:not([value])::-webkit-progress-bar {
+        background: repeating-linear-gradient(45deg, #7e7e7e, #7e7e7e 10px, #5c5c5c 10px, #5c5c5c 20px);
+    }
+    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
+        background: #F44336;
+    }
+</style>
+</div>
+<div class="cell-output cell-output-display">
+
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>This is a: bird.
+Probability it's a bird: 1.0000</code></pre>
+</div>
+</div>
+<p>In the previous step we had a leraner which started with a pretrained model and was finetuned for the purpose of our task, now we can call <code>.predict()</code> on it and we pass in an image.</p>
+<p>This is what the deploying part is which basically achieves our goal we intended to achieve, for example, in the comic we say the person had a reason for the model, to check an image perhaps!</p>
+<hr>
+</section>
+</section>
+<section id="beyond-image-recognition---segmentation" class="level2">
+<h2 class="anchored" data-anchor-id="beyond-image-recognition---segmentation">Beyond Image Recognition - Segmentation</h2>
+<section id="what-is-it" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-it">What Is It?</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/segmentation.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Segmentation</em></figcaption><p></p>
+</figure>
+</div>
+<p>Segmentation is where we take photos, in this case of road scenes and color the pixels based on the “things” in the photos, green for trees, brown for buildings, and so on.</p>
+<p>On the left we have photos were somebody has already classified the pixels and on the right, it is the model who is doing the prediction. Most of the pixels are getting correct.</p>
+</section>
+<section id="training-gives-accurate-results" class="level3">
+<h3 class="anchored" data-anchor-id="training-gives-accurate-results">Training Gives Accurate Results</h3>
+<p>One might assume that this would be a hard task, but the above was trained for 20 sec.&nbsp;Training a little further could easily make it close to perfect.</p>
+</section>
+<section id="some-code-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="some-code-analysis">Some Code Analysis</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/segmentation_code.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Segmentation Code Snippet</em></figcaption><p></p>
+</figure>
+</div>
+<p>The steps look familiar as the “Is It A Bird?” model we ran, in fact in this case the code is a bit less. We are using a simler approach.</p>
+<p>Earlier, we used <code>DataBlocks</code> which is like an intermediate level approach in handling any kind of data and it gives a lot of flexibility.</p>
+<p>For the kinds of data that occur a lot, one can use <code>DataLoaders</code> which involves less code.</p>
+<p>For segmentation we use a <code>unet</code> learner which will come in the next lessons.</p>
+<p>Rest all is self explanatory and familiar stuff!</p>
+<hr>
+</section>
+</section>
+<section id="beyond-image-recognition---tabular-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="beyond-image-recognition---tabular-analysis">Beyond Image Recognition - Tabular Analysis</h2>
+<section id="what-is-it-1" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-it-1">What Is It?</h3>
+<p>Stepping away from computer vision, the most widely used model in industry is the tabular analysis.</p>
+<p>The idea is simple, we take spreadsheets or database tables and predict columns of those.</p>
+</section>
+<section id="some-code-analysis-1" class="level3">
+<h3 class="anchored" data-anchor-id="some-code-analysis-1">Some Code Analysis</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/tabular_analysis_code.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Tabular Analysis Code Snippet</em></figcaption><p></p>
+</figure>
+</div>
+<p>Again the code has a sense of similarity.</p>
+<ul>
+<li><p><code>untar_data()</code> is a fast.ai feature which <em>downloads</em> the data from a URL and <em>decompresses</em> it. There are whole lot of URLs provided by fast.ai which are the common datasets widely used in learning and research.</p></li>
+<li><p>We created <code>DataLoaders</code>, this time <code>TabularDataLoaders</code>.</p></li>
+<li><p><code>cat_names</code> and <code>cont_names</code> helps in telling the model which colums are categorical and which ones are continuous.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/show_batch.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Show Batch</em></figcaption><p></p>
+</figure>
+</div>
+<p>The exact same <code>show_batch</code> can be used to view the data.</p>
+<p>This is because, fast.ai uses something called “type dispatch” which is a system which popular in the Julia language. It automatically does the right thing for our data regardless of what kind of data it is.</p>
+<p>As a general sonsolidation, when we use <code>show_batch</code> on something we will get something useful regardles of what kind of data we provided.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/fit_one.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Learner</em></figcaption><p></p>
+</figure>
+</div>
+<p>For the learner we are using <code>tabular learner</code>.</p>
+<p>Note that, this time we are not using <code>fine_tune</code>, but instead <code>fit</code>. This is because for tabular models, there will not be any pre-trained models that can do exactly what we wish to do, because every table has a different structure of data. Pictures have a similarity. Hence, it does not make too much sense to fine-tune a tabular model.</p>
+<hr>
+</section>
+</section>
+<section id="beyond-image-recognition---collaborative-filtering" class="level2">
+<h2 class="anchored" data-anchor-id="beyond-image-recognition---collaborative-filtering">Beyond Image Recognition - Collaborative Filtering</h2>
+<section id="what-is-it-2" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-it-2">What Is It?</h3>
+<p>This is the backbone of most recommendation systems today like Amazon, Netflix, etc.</p>
+<p>It basically takes datasets and analysis the following: * Which users have bought which products? * Which products can the users be interested in based on finding similar users and they like?</p>
+<p>By similar we mean sharing mutual interets in prodcuts but not based on demography or other parameters.</p>
+</section>
+<section id="some-code-analysis-2" class="level3">
+<h3 class="anchored" data-anchor-id="some-code-analysis-2">Some Code Analysis</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/collab.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Collaborative Filtering Code Snippet 1</em></figcaption><p></p>
+</figure>
+</div>
+<p>We are using <code>ColabDataLoaders</code>, where we can include the data using a <code>csv</code> file.</p>
+<p>Generally all Collab Filtering have the similar data structure shown in the batches above.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/collab0.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Collaborative Filtering Code Snippet 2</em></figcaption><p></p>
+</figure>
+</div>
+<p>We are using the <code>collab_learner</code> where we pass in the data <code>dls</code> along with an additional information <code>y_range</code>. We do this becuase what we are predicting is not a catgory but a real numbers. Hence the possible range is mentioned. Note that the actual range is <code>1-5</code> but we use a range from a little bit lower to a little bit higher, that’s why we used <code>0.5-5.5</code>. We will learn the reasons for this in the upcoming lessons.</p>
+<p>Ideally we should fit it instead of fine-tuning but it works as well in collaborative filtering.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/show_results.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>show_results()</em></figcaption><p></p>
+</figure>
+</div>
+<p>For any kind of models we can always call <code>show_results</code> which shows few examples.</p>
+<hr>
+</section>
+</section>
+<section id="what-jeremy-makes-with-jupyter-nbs" class="level2">
+<h2 class="anchored" data-anchor-id="what-jeremy-makes-with-jupyter-nbs">What Jeremy Makes With Jupyter NBs</h2>
+<ul>
+<li>The <em>Deep Learning for Coders with fastai and PyTorch</em> textbook was written in JNs. Here is the <a href="https://github.com/fastai/fastbook">repo</a>.</li>
+<li>The entire fast.ai <a href="https://docs.fast.ai/">library</a> was written in NBs. Here is the <a href="https://github.com/fastai/fastai">repo</a>. Since all the source codes are NBs, it has actual pictures of things that were being built.</li>
+<li>Blogging. Blogging is easy when done with JNs if there is lots of code involved. It displays the outputs as well, like the one you are reading now :D. <a href="https://fastpages.fast.ai/jupyter/2020/02/20/test.html">This</a> blog was written in NBs.</li>
+<li>All of fast.ai libraries tests and continuous integration is all NBs. Every time changes are made in the NBs, multiple tests are run automatically.</li>
+</ul>
+<hr>
+</section>
+<section id="what-can-dl-do-at-present" class="level2">
+<h2 class="anchored" data-anchor-id="what-can-dl-do-at-present">What Can DL Do At Present?</h2>
+<p>We are still scratching the tip of an iceberg!</p>
+<p>Although to day it is really hyped and marketed about, in 2014 things were a bit dull: * Not many people were talking about DL. * There was no accessible way to get startet with it. * There were no pretrained models one could download. * It was just starting to appear- some open source softwares were running on GPUs.</p>
+<p>Despite all that DL is doing pretty well today but we are still scratching the surface.</p>
+<p>People working in any domain who wish to use DL, months after their implementation get state of the art results in their fields.</p>
+<p>Following are the areas in which most people have tried DL so far, still most things haven’t been tried.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/what_can_dl_do.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>List of things DL can do</em></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/what_can_dl_do_2.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>List of things DL can do</em></figcaption><p></p>
+</figure>
+</div>
+<p>Jeremy has tried to make bigger lists and ended up making pages. It is spread out everywhere!</p>
+<p>Generally speaking DL will be good at tasks that a human can do resonably quickly, like looking at a GO board and deciding if it is a good GO board or not.</p>
+<p>If the task is something that takes lots of logical thought processes and not based on data, then DL wouldn’t fit there, like deciding who would win an election.</p>
+<hr>
+</section>
+<section id="a-quick-history-of-dl" class="level2">
+<h2 class="anchored" data-anchor-id="a-quick-history-of-dl">A Quick History Of DL</h2>
+<p>Dl is incredibly powerful today but it took decades of hardwork by lot of people to reach where we are today.</p>
+<p>Below is the first neural network, the basis of DL:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/nn.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>NN back then</em></figcaption><p></p>
+</figure>
+</div>
+<p>The basic ideas have not changed at all, although we have extra gear at our disposal, things like GPUs, solid-state drives, and of course lots of data.</p>
+<hr>
+</section>
+<section id="high-level-overview-of-models" class="level2">
+<h2 class="anchored" data-anchor-id="high-level-overview-of-models">High Level Overview Of Models</h2>
+<p>Let us take a look at what is going on in a model works, and discuss the basic idea of ML from a very high level.</p>
+<p>Following is what a normal program looks like in the pre DL/ML days:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/program.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>A normal computer program</em></figcaption><p></p>
+</figure>
+</div>
+<p>We have <code>inputs</code> and <code>results</code>, and a <code>program</code> coded in the middle that has bunch of conditionals, loop, and blah blah blah.</p>
+<p>A machine learning model does not look that different:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/ml_model.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>A machine learning model</em></figcaption><p></p>
+</figure>
+</div>
+<p>Here: * The <code>program</code> is replaced by a <code>model</code>. * We don’t just have <code>inputs</code> now but something called as <code>weights</code>, which are called as <code>parameters</code> as well.</p>
+<p>The key thing being that the <code>model</code> is no longer a bunch of conditionals or loops, but is a mathematical function.</p>
+<p>An example is the Neural Network. Following is how it works:</p>
+<p>It takes the inputs, multiplies it by one set of weights, and adds them up. It does this process again for a second set of weights and so on. It takes any resulting negative numbers and replaces with zeroes. It then takes these as new inputs for the next layer and repeats the whole process of multiplying and adding with the weights till the next layers.</p>
+<p>The model does not to anything useful unless the weights are chosen carefully. To begin wiith we start by starting with some random weights. Initially it doesn;t do anything useful.</p>
+<p>We do the following, as described in the 1950s by Arthur Samuel, the inventor of ML.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/next_steps.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>A machine learning model</em></figcaption><p></p>
+</figure>
+</div>
+<ul>
+<li>Take the inputs and weights</li>
+<li>Put it in the model</li>
+<li>Get the results</li>
+<li>Decide how good they are</li>
+</ul>
+<p>For example, if we are trying to decide if a picture is of a bird or not and the model, which initially is taking a random weight said otherwise, we then calculate the <code>loss</code>. It is number which says how good the results are. We can for example say what’s the accuracy.</p>
+<p>The critical step is the “updating step” where we update the weights with a new set which is a bit better than the previous weights, by bit better we mean the loss should get a little bit better. So, we need a mechanism which does this updateing process.</p>
+<p>In an overall sense, if we make it a little bit better enough no of times we get what we want.</p>
+<hr>
+</section>
+<section id="learner-backgrounds" class="level2">
+<h2 class="anchored" data-anchor-id="learner-backgrounds">Learner Backgrounds</h2>
+<p>For learners who are already familiar with NBs and Python this lesson will be easy- just using NBs and some new libraries.</p>
+<p>For those who do not know Python are biting at a big thing here. There will be lots to learn.</p>
+<p>Python will not be taught in this course but there are great Python resources on the forum.</p>
+<hr>
+</section>
+<section id="hwthings-to-do-before-moving-to-lesson-2" class="level2">
+<h2 class="anchored" data-anchor-id="hwthings-to-do-before-moving-to-lesson-2">HW/Things To Do Before Moving To Lesson 2</h2>
+<section id="experiment" class="level3">
+<h3 class="anchored" data-anchor-id="experiment">1. Experiment!</h3>
+<p>Regardless of where you are at, the most important thing is to <strong>experiment</strong>. Experimenting can mean the following: 1. Simply running the Kaggle NBs- just see them run. 2. Changing things a little bit * Instead of bird and forest come up with something else. * Instead of using only 2 categories, try to use 3 or more categories.</p>
+<p>Depeding on whereever you are at, try to push yourself a little bit but not too much before moving into the next lesson.</p>
+</section>
+<section id="read-chapter-1-of-the-textbook" class="level3">
+<h3 class="anchored" data-anchor-id="read-chapter-1-of-the-textbook">2. Read chapter 1 of the textbook</h3>
+<p>Chapter 1 has got much the same stuff presented in a slightly different way.</p>
+</section>
+<section id="share-your-work" class="level3">
+<h3 class="anchored" data-anchor-id="share-your-work">3. Share Your Work</h3>
+<p>One can share on <a href="https://forums.fast.ai/t/share-your-work-here/96015/525">this</a> thread of the forum.</p>
+<p>It is amazing to see learner’s journeys once they begin to share their work. In the first year of the course there were 1000s of replies of learners sharing their work, and of those replies many of them had turend into many startups, scietific papers, and job offers. Some of them were just fun projects!</p>
+</section>
+<section id="have-a-look-at-the-quiz-questions" class="level3">
+<h3 class="anchored" data-anchor-id="have-a-look-at-the-quiz-questions">4. Have A Look At The Quiz Questions</h3>
+<p>Try to see if you can answer them all correctly</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/share_thread.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Figure : Share Your Work thread on forum</em></figcaption><p></p>
+</figure>
+</div>
+<hr>
+</section>
+</section>
+<section id="glimspes-of-other-students-work" class="level2">
+<h2 class="anchored" data-anchor-id="glimspes-of-other-students-work">Glimspes Of Other Student’s Work</h2>
+<p>The projects people do are based on where they live and what there intrerests are. Following are a few of them.</p>
+<ul>
+<li><p>Trinidad &amp; Tobago Classifier:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/trinidad.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Trinidad &amp; Tobago Classifier</em></figcaption><p></p>
+</figure>
+</div></li>
+<li><p>Zucchini &amp; Cucumber Classifier:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/cucumber.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Vegetable classifier project by a student</em></figcaption><p></p>
+</figure>
+</div></li>
+<li><p>Satellite City Imagery Classifier:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/satellite.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Satellite city image classifier project by a student</em></figcaption><p></p>
+</figure>
+</div></li>
+<li><p>Panama City Bus Classifier:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/bus.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Bus classifier project by a student</em></figcaption><p></p>
+</figure>
+</div></li>
+<li><p>Batik Cloth Classifier:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/batik.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Cloth classsifier project by a student</em></figcaption><p></p>
+</figure>
+</div></li>
+<li><p>Building Safety:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/safety.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Disaster management project by a student</em></figcaption><p></p>
+</figure>
+</div>
+<p>This is a practicallyy important one, recognising state of the buildings. Quite a few students have moved into disaster resellience domains banes on satellite imagery.</p></li>
+<li><p>Sound Classification (Revisited):</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/sound.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Sound classification project by a student</em></figcaption><p></p>
+</figure>
+</div></li>
+<li><p>Cancer Tumour:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/tumour.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Cancer tumout detection project by a student</em></figcaption><p></p>
+</figure>
+</div></li>
+<li><p>Fraud Detection (Revisited):</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/fraud.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Fraud detection project by a student</em></figcaption><p></p>
+</figure>
+</div></li>
+<li><p>Envision Startup:</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lesson_1/envision.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Envision a startup created by a student</em></figcaption><p></p>
+</figure>
+</div>
+<p>Have a go at building your own project and try to push a little further.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script type="application/vnd.jupyter.widget-state+json">
+{"0113ee998f80437287cccaaebbf38918":{"model_module":"@jupyter-widgets/controls","model_name":"HBoxModel","model_module_version":"1.5.0","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"HBoxModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"HBoxView","box_style":"","children":["IPY_MODEL_71f8114326c14f4ba7748dad5c34fe06","IPY_MODEL_b191d3785b46402a8ae15c41028d7a9e","IPY_MODEL_1cfb9fe1b28341c185df3493f02965dd"],"layout":"IPY_MODEL_3dc56c7f995f4240b73fb3cfc4f80061"}},"71f8114326c14f4ba7748dad5c34fe06":{"model_module":"@jupyter-widgets/controls","model_name":"HTMLModel","model_module_version":"1.5.0","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"HTMLModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"HTMLView","description":"","description_tooltip":null,"layout":"IPY_MODEL_90ab545549914f4db1bfdd80e09b03a6","placeholder":"​","style":"IPY_MODEL_54a1528d03e640239b704b09c64b0547","value":"100%"}},"b191d3785b46402a8ae15c41028d7a9e":{"model_module":"@jupyter-widgets/controls","model_name":"FloatProgressModel","model_module_version":"1.5.0","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"FloatProgressModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"ProgressView","bar_style":"success","description":"","description_tooltip":null,"layout":"IPY_MODEL_78ba4b87f2fc49d9b39f566e7b28bda1","max":46830571,"min":0,"orientation":"horizontal","style":"IPY_MODEL_5e952fd81df043fda71b28023109ea98","value":46830571}},"1cfb9fe1b28341c185df3493f02965dd":{"model_module":"@jupyter-widgets/controls","model_name":"HTMLModel","model_module_version":"1.5.0","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"HTMLModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"HTMLView","description":"","description_tooltip":null,"layout":"IPY_MODEL_b2656808d0e646ec8450cdb45ff86cc9","placeholder":"​","style":"IPY_MODEL_9e51a91e27734ba682dc3b455bdbe1f5","value":" 44.7M/44.7M [00:00&lt;00:00, 87.4MB/s]"}},"3dc56c7f995f4240b73fb3cfc4f80061":{"model_module":"@jupyter-widgets/base","model_name":"LayoutModel","model_module_version":"1.2.0","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"90ab545549914f4db1bfdd80e09b03a6":{"model_module":"@jupyter-widgets/base","model_name":"LayoutModel","model_module_version":"1.2.0","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"54a1528d03e640239b704b09c64b0547":{"model_module":"@jupyter-widgets/controls","model_name":"DescriptionStyleModel","model_module_version":"1.5.0","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"DescriptionStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","description_width":""}},"78ba4b87f2fc49d9b39f566e7b28bda1":{"model_module":"@jupyter-widgets/base","model_name":"LayoutModel","model_module_version":"1.2.0","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"5e952fd81df043fda71b28023109ea98":{"model_module":"@jupyter-widgets/controls","model_name":"ProgressStyleModel","model_module_version":"1.5.0","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"ProgressStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","bar_color":null,"description_width":""}},"b2656808d0e646ec8450cdb45ff86cc9":{"model_module":"@jupyter-widgets/base","model_name":"LayoutModel","model_module_version":"1.2.0","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"9e51a91e27734ba682dc3b455bdbe1f5":{"model_module":"@jupyter-widgets/controls","model_name":"DescriptionStyleModel","model_module_version":"1.5.0","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"DescriptionStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","description_width":""}}}
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./lesson0.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Lesson 0</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

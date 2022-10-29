@@ -37,7 +37,7 @@ website:
             - text: "---"
             - section: "Code Experiments"
               contents: 
-                - safedriving.qmd
+                - fastest_creatures.ipynb
         - section: "Live Coding"
           contents:
             - live_coding_1.qmd
